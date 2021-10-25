@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="74" viewBox="0 0 74 74">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc477"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <filter id="Rectangle_24" x="0" y="0" width="74" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-59.5 -974.5)">
+    <g transform="matrix(1, 0, 0, 1, 59.5, 974.5)" filter="url(#Rectangle_24)">
+      <rect id="Rectangle_24-2" data-name="Rectangle 24" width="53" height="53" rx="10" transform="translate(10.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_awesome-discord" data-name="Icon awesome-discord" d="M12.892,10.549a1.137,1.137,0,1,1-1.133-1.233A1.183,1.183,0,0,1,12.892,10.549ZM7.706,9.316a1.237,1.237,0,0,0,0,2.465,1.183,1.183,0,0,0,1.133-1.233A1.176,1.176,0,0,0,7.706,9.316ZM19.432,2.287V22.209c-2.8-2.472-1.9-1.654-5.152-4.675l.589,2.054H2.276A2.282,2.282,0,0,1,0,17.3V2.287A2.282,2.282,0,0,1,2.276,0h14.88A2.282,2.282,0,0,1,19.432,2.287ZM16.268,12.814a14.87,14.87,0,0,0-1.6-6.474,5.491,5.491,0,0,0-3.12-1.166l-.155.178a7.39,7.39,0,0,1,2.765,1.41A9.435,9.435,0,0,0,5.863,6.44c-.411.189-.655.322-.655.322a7.491,7.491,0,0,1,2.92-1.455l-.111-.133A5.491,5.491,0,0,0,4.9,6.341a14.87,14.87,0,0,0-1.6,6.474A4.026,4.026,0,0,0,6.685,14.5s.411-.5.744-.922a3.454,3.454,0,0,1-1.943-1.31c.163.114.433.263.455.278a8.094,8.094,0,0,0,6.929.389,6.354,6.354,0,0,0,1.277-.655,3.5,3.5,0,0,1-2.01,1.321c.333.422.733.9.733.9A4.059,4.059,0,0,0,16.268,12.814Z" transform="translate(86.784 994.307)" fill="#ffc477"/>
+  </g>
+</svg>

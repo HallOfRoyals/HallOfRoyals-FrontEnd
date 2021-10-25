@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="74" viewBox="0 0 74 74">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc477"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <filter id="Rectangle_24" x="0" y="0" width="74" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_18" data-name="Group 18" transform="translate(-125.5 -974.5)">
+    <g transform="matrix(1, 0, 0, 1, 125.5, 974.5)" filter="url(#Rectangle_24)">
+      <rect id="Rectangle_24-2" data-name="Rectangle 24" width="53" height="53" rx="10" transform="translate(10.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_awesome-twitter" data-name="Icon awesome-twitter" d="M24.533,8.916c.017.243.017.486.017.729A15.836,15.836,0,0,1,8.606,25.589,15.837,15.837,0,0,1,0,23.074a11.593,11.593,0,0,0,1.353.069,11.224,11.224,0,0,0,6.958-2.394,5.614,5.614,0,0,1-5.24-3.887,7.068,7.068,0,0,0,1.058.087A5.927,5.927,0,0,0,5.6,16.758a5.6,5.6,0,0,1-4.494-5.5v-.069a5.644,5.644,0,0,0,2.533.711A5.613,5.613,0,0,1,1.908,4.4a15.93,15.93,0,0,0,11.555,5.864,6.327,6.327,0,0,1-.139-1.284,5.61,5.61,0,0,1,9.7-3.834A11.034,11.034,0,0,0,26.581,3.8a5.589,5.589,0,0,1-2.464,3.088,11.235,11.235,0,0,0,3.227-.867,12.047,12.047,0,0,1-2.811,2.9Z" transform="translate(148.828 990.927)" fill="#ffc477"/>
+  </g>
+</svg>

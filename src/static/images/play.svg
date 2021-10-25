@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="74" viewBox="0 0 74 74">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc477"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <filter id="Ellipse_8" x="0" y="0" width="74" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-91.5 -773.5)">
+    <g transform="matrix(1, 0, 0, 1, 91.5, 773.5)" filter="url(#Ellipse_8)">
+      <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="26.5" cy="26.5" r="26.5" transform="translate(10.5 4.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M18.318,9.268,3.125.286A2.06,2.06,0,0,0,0,2.068v17.96a2.07,2.07,0,0,0,3.125,1.783l15.193-8.978A2.07,2.07,0,0,0,18.318,9.268Z" transform="translate(121.832 793.448)" fill="#ffc477"/>
+  </g>
+</svg>
