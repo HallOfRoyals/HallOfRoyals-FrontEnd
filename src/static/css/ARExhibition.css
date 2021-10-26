@@ -30,7 +30,7 @@
   bottom: -67px;
   left: 45%;
   content: "";
-  height: 100px;
+  height: 80px;
   width: 100px;
   background-image: url(../images/ellipses.svg);
   background-size: 100% 100%;
@@ -48,7 +48,8 @@
   margin-bottom: 50px;
 }
 .xniR-wrapper p.notice {
-  font-size: 17px;
+  font-size: 19px;
+  line-height: 25px;
   font-style: italic;
   font-family: "Gentium Basic", serif;
   font-weight: normal;

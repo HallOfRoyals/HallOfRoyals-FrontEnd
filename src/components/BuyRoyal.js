@@ -32,7 +32,7 @@ export default function BuyRoyal() {
           </div>
         </div>
         <div className="d-flex justify-content-center text-center">
-          <div className="royal-info">
+          <div className="royal-info col-sm-12">
             All Royals are unique and algorithm-generated from over 200 traits. Royals are stored on the Ethereum ERC-721 blockchain
           </div>
         </div>

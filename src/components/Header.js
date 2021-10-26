@@ -2,14 +2,12 @@ import logo from '../static/images/logo.png';
 import imageShapeOne from '../static/images/header-shape-1.png';
 import imageShapeTwo from '../static/images/header-shape-2.svg';
 import imageShapeThree from '../static/images/header-shape-3.svg';
-import play from '../static/images/play.svg';
 import headFigure from '../static/images/head-figure.png';
 import socialIconOne from '../static/images/social-icon1.svg';
 import socialIconTwo from '../static/images/social-icon2.svg';
 import socialIconThree from '../static/images/social-icon3.svg';
 import Accordion from 'react-bootstrap/Accordion'
 import NavToggler from './NavToggle';
-// import headBob from '../static/images/head-bob.svg';
 import '../static/css/Header.css';
 
 export default function Header() {
@@ -19,7 +17,7 @@ export default function Header() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <Accordion defaultActiveKey="0">
+              <Accordion defaultActiveKey="1">
                 <nav className="navbar navbar-expand-lg">
                   <a className="navbar-brand" href="/">
                     <img src={logo} alt="Yarner" />
@@ -64,9 +62,7 @@ export default function Header() {
                 <h5 className="header-title-helper">(A Royal Hall Of Fame)</h5>
                 <p className="text">A collection of 13,000 unique "Royals" to immortalize the modern day Kings & Queens - forever on the blockchain</p>
                 <ul className="d-flex">
-                  <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc" className="d-flex flex-row align-items-center header-video">
-                    <img src={play} alt="play AR" /><span>AR Experience</span>
-                  </a></li>
+                  <li className="header-helper-caption">A collection of 13,500 unique "Royals" to immortalize the present day Kings & Queens - forever on the blockchain</li>
                 </ul>
                 <ul className="social-icons">
                   <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">

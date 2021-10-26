@@ -120,7 +120,8 @@
   }
 }
 .navbar-nav .nav-item a {
-  font-size: 21px;
+  font-size: 30px;
+  line-height: 57px;
   text-decoration: none;
   font-family: "Gabriola";
   font-weight: normal;
@@ -363,6 +364,7 @@
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-hero-content .header-title {
+    margin-top: 35px;
     font-size: 38px;
   }
 }
@@ -375,10 +377,10 @@
 }
 .header-hero-content .text {
   position: relative;
-  margin-top: 70px;
+  margin-top: 120px;
   padding-left: 24px;
   padding-right: 20px;
-  min-height: 210px;
+  min-height: 130px;
   font-family: "Gabriola";
   color: #fff;
   font-size: 22px;
@@ -396,7 +398,15 @@
     padding-box;
   background-position: left center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+}
+.header-helper-caption {
+  text-align: left;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "Josefin Slab", sans-serif;
+  letter-spacing: 0px;
+  color: #110d09;
 }
 .header-hero-content ul {
   margin-top: 30px;
