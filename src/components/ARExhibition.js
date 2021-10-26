@@ -65,7 +65,7 @@ export default function ARExhibition() {
             <p className="mb-30">Each post you make in your Royal Diary also has a "Tip" button and can also be tipped in ETH</p>
             <p>UTILITY: Your Royal can; earn you passive income without being sold; be used as a fundraiser; to raise money for a cause; to launch a book; to crowdfund; etc.</p>
           </div>
-          <p className="info mt-30 mb-0">Buying a Royal makes you a member of the Royal Hall Of Fame</p>
+          <p className="info mt-30 mb-0">Other member benefits include "voting rights" as explanied in the roadmap below</p>
         </div>
       </div>
     </section>

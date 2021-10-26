@@ -82,10 +82,10 @@ export default function Header() {
               </div>
             </div>
             <div className="header-image">
-              <div class="image-shape">
+              <div className="image-shape">
                 <img src={headFigure} alt="shape" />
               </div>
-              {/* <div class="image-shape" style={{zIndex: -2}}>
+              {/* <div className="image-shape" style={{zIndex: -2}}>
                 <img src={headBob} alt="shape" />
               </div> */}
             </div>

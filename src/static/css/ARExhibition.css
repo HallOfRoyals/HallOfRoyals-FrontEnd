@@ -78,12 +78,13 @@
 .xniR-wrapper p.info {
   font-weight: 300;
   font-family: "Josefin Slab", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 50px;
 }
 .xniR-wrapper p.notice {
-  font-size: 25px;
-  font-family: "Gabriola";
+  font-size: 17px;
+  font-style: italic;
+  font-family: "Gentium Basic", serif;
   font-weight: normal;
   margin-bottom: 40px;
 }
@@ -101,8 +102,8 @@
 }
 .xniR-card p {
   text-align: center;
-  font-weight: 800;
-  font-size: 24px;
+  font-weight: bold;
+  font-size: 21px;
   font-family: "Josefin Slab", sans-serif;
   letter-spacing: 0px;
   color: #1c160f;
