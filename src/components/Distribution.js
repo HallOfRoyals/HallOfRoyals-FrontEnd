@@ -19,7 +19,7 @@ export default function Distribution() {
             </Col>
             <Col className="d-flex flex-column justify-content-center align-items-start magic-mt-10" md={6}>
               <div className="d-flex align-items-center dist-info">
-                <span className="dist-shape color1"></span><span>9,500 Public Sales</span>
+                <span className="dist-shape color1"></span><span>12,500 Public Sales</span>
               </div>
               <div className="d-flex align-items-center dist-info">
                 <span className="dist-shape color2"></span><span>200 Custom- Cast Reserve</span>

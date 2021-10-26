@@ -27,8 +27,8 @@ export default function BuyRoyal() {
         </div>
         <div className="row text-center mb-10">
           <div className="col-md-10 mh-auto">
-            <ProgressBar className="reprogress" now={60} max={1500} min={0} />
-            <div className="progress-helper">0/10,000 minted</div>
+            <ProgressBar className="reprogress" now={60} max={1300} min={0} />
+            <div className="progress-helper">0/13,000 minted</div>
           </div>
         </div>
         <div className="d-flex justify-content-center text-center">

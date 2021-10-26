@@ -50,33 +50,6 @@ export default function Header() {
                   </Accordion.Collapse>
                 </nav>
               </Accordion>
-              {/* <Navbar bg="light" expand="lg">
-                <Container fluid>
-                  <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-                  <Navbar.Toggle aria-controls="navbarScroll" />
-                  <Navbar.Collapse id="navbarScroll">
-                    <Nav
-                      className="me-auto my-2 my-lg-0"
-                      style={{ maxHeight: '100px' }}
-                      navbarScroll
-                    >
-                      <Nav.Link href="#action1">Home</Nav.Link>
-                      <Nav.Link href="#action2">Link</Nav.Link>
-                      <NavDropdown title="Link" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                          Something else here
-                        </NavDropdown.Item>
-                      </NavDropdown>
-                      <Nav.Link href="#" disabled>
-                        Link
-                      </Nav.Link>
-                    </Nav>
-                  </Navbar.Collapse>
-                </Container>
-              </Navbar> */}
             </div>
           </div>
         </div>
@@ -89,7 +62,7 @@ export default function Header() {
               <div className="header-hero-content">
                 <h3 className="header-title">Hall Of Royals</h3>
                 <h5 className="header-title-helper">(A Royal Hall Of Fame)</h5>
-                <p className="text">A collection of 15,000 unique "Royals" to immortalize the modern day Kings & Queens - forever on the blockchain</p>
+                <p className="text">A collection of 13,000 unique "Royals" to immortalize the modern day Kings & Queens - forever on the blockchain</p>
                 <ul className="d-flex">
                   <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc" className="d-flex flex-row align-items-center header-video">
                     <img src={play} alt="play AR" /><span>AR Experience</span>
