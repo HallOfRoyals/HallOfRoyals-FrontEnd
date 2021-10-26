@@ -1,25 +1,9 @@
 import '../static/css/ARExhibition.css';
 import SectionTitle from './SectionTitle';
-import play from '../static/images/play.svg';
 
 export default function ARExhibition() {
   return (
     <section className="pb-120">
-      <div className="container">
-        <SectionTitle title="AR Experience" />
-      </div>
-      <div className="text-center pt-100 pb-100 d-flex flex-column align-items-center exhibition-xcndM">
-        <div className="exhibition-overlay"></div>
-        <div className="exhibition-content">
-          <h2>7,500 Queens + Kings 7,500</h2>
-          <div className="mt-125 info-section">
-            <h2>AR Exhibition</h2>
-            <a href="/" className="action-btn">
-              <img src={play} alt="Start Exhibition" />
-            </a>
-          </div>
-        </div>
-      </div>
       <div className="xniR-wrapper">
         <div className="container pt-100 pb-100">
           <div className="text-center mb-80">
