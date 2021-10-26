@@ -1,9 +1,7 @@
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 
 export default function NavToggle({ eventKey }) {
-  const decoratedOnClick = useAccordionButton(eventKey, () =>
-    console.log('totally custom!'),
-  );
+  const decoratedOnClick = useAccordionButton(eventKey, () =>{});
 
   return (
     <button className="navbar-toggler" type="button" onClick={decoratedOnClick}>
