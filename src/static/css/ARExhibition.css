@@ -75,6 +75,108 @@
   letter-spacing: 0px;
   color: #1c160f;
 }
+.community-knlD-wrapper {
+  width: 100%;
+  height: 400px;
+}
+.community-knlD-wrapper .iyuNvH {
+  height: 100%;
+}
+.community-knlD-wrapper .kaIBdz {
+  height: 100%;
+}
+.community-knlD {
+  background: #fff7ec 0% 0% no-repeat padding-box;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.community-knlD .profile img {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+}
+.community-knlD .profile h4 {
+  text-align: center;
+  font-family: "Gentium Basic", serif;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0px;
+  color: #1c160f;
+}
+.community-knlD .details-section {
+  padding-left: 35px;
+  white-space: normal !important;
+}
+.community-knlD .details-section h3 {
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0px;
+  color: #1c160f;
+}
+.community-knlD .details-section .action-btn {
+  border: 1px solid #53422d;
+  border-radius: 22px;
+  padding: 0.2rem 1rem;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #372c1e;
+}
+.community-knlD .details-section .action-btn img {
+  height: 20px;
+  width: 16px;
+  margin-right: 3px;
+}
+.community-knlD .details-section p {
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #1c160f;
+}
+.community-knlD .details-section .special-action-section {
+  width: 100%;
+  max-width: 300px;
+}
+@media (max-width: 1289px) {
+  .community-knlD-wrapper {
+    height: 470px;
+  }
+}
+@media (max-width: 990px) {
+  .community-knlD-wrapper {
+    height: auto;
+  }
+  .community-knlD .details-section {
+  padding-left: 35px;
+  white-space: normal !important;
+}
+  .community-knlD {
+    display: block !important;
+    padding: 25px;
+  }
+  .community-knlD .details-section {
+    display: block !important;
+    width: 100% !important;
+    margin-top: 25px;
+    padding: 0 !important;
+  }
+  .community-knlD .profile {
+    display: block !important;
+    width: 100% !important;
+  }
+  .community-knlD .profile img {
+  width: 170px;
+}
+}
 @media (max-width: 998px) {
   .xniR-wrapper h2:after {
     left: 42%;
