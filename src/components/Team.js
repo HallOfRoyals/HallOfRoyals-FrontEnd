@@ -4,6 +4,11 @@ import Col from 'react-bootstrap/Col';
 
 import SectionTitle from './SectionTitle';
 import teamMember1 from '../static/images/team/1.png';
+import teamMember2 from '../static/images/team/2.png';
+import teamMember3 from '../static/images/team/3.png';
+import teamMember4 from '../static/images/team/4.png';
+import teamMember5 from '../static/images/team/5.png';
+import teamMember6 from '../static/images/team/6.png';
 
 export default function RoadMap() {
   return (
@@ -27,14 +32,14 @@ export default function RoadMap() {
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" sm={6} md={4}>
-            <img src={teamMember1} alt="" className="team-photo" />
+            <img src={teamMember2} alt="" className="team-photo" />
             <div className="text-center team-desc">
               <h3>Sky_fantasy</h3>
               <span>Product Manager/Designer</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" sm={6} md={4}>
-            <img src={teamMember1} alt="" className="team-photo" />
+            <img src={teamMember3} alt="" className="team-photo" />
             <div className="text-center team-desc">
               <h3>Lord Of The Dark Tides</h3>
               <span>Software developer</span>
@@ -43,21 +48,21 @@ export default function RoadMap() {
         </Row>
         <Row className="mt-30 align-items-center justify-content-around">
           <Col className="d-flex flex-column justify-content-center align-items-center" sm={6} md={4}>
-            <img src={teamMember1} alt="" className="team-photo" />
+            <img src={teamMember4} alt="" className="team-photo" />
             <div className="text-center team-desc">
               <h3>Lord Of The Dark Tides</h3>
               <span>AR/VR/Software developers</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" sm={6} md={4}>
-            <img src={teamMember1} alt="" className="team-photo" />
+            <img src={teamMember5} alt="" className="team-photo" />
             <div className="text-center team-desc">
               <h3>Dimensun</h3>
               <span>3D Artist</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" sm={6} md={4}>
-            <img src={teamMember1} alt="" className="team-photo" />
+            <img src={teamMember6} alt="" className="team-photo" />
             <div className="text-center team-desc">
               <h3>Lord Of The Dark Tides</h3>
               <span>3D/2D Artist</span>

@@ -3,6 +3,10 @@ import '../static/css/ARExhibition.css';
 import SectionTitle from './SectionTitle';
 import { Slider } from '@lifarl/react-scroll-snap-slider';
 import pic1 from '../static/images/community/1.png';
+import pic2 from '../static/images/community/2.png';
+import pic3 from '../static/images/community/3.png';
+import pic4 from '../static/images/community/4.png';
+import pic5 from '../static/images/community/5.png';
 import iconEther from '../static/images/icon-ethereum.png';
 import iconHeart from '../static/images/icon-heart.png';
 
@@ -45,6 +49,27 @@ export default class AREXhibition extends React.Component {
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
                   <img src={pic1} alt="Community member" />
+                  <h4>Destiny: Phoenix</h4>
+                </div>
+                <div className="col-sm-9 details-section">
+                  <div className="d-flex justify-content-between">
+                    <h3>Loss and raising kids</h3>
+                    <button type="button" className="btn action-btn">Follow</button>
+                  </div>
+                  <p className="pt-20">
+                    I'm dedicating this royal to myself. I'm a single mom with three kids. My hubby died in the line of duty shortly after our third child was born. I never thought I could do it... I was depressed for over a year but I had to find my way back for my kids.
+                  </p>
+                  <p className="pt-20">It's been 8 years now and I and my kids are doing great. It's tough but hey, what isn't. Believe in yourself and you too can achieve anything. I'm dedicating my Royal NFT to my book "Loss and raising kids" where I share my experience and how I rose like a phoenix from the ashes
+                  </p>
+                  <div className="d-flex justify-content-between pt-30 special-action-section">
+                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>1.5</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>101</span></button>
+                  </div>
+                </div>
+              </div>
+              <div className="d-flex community-knlD">
+                <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
+                  <img src={pic2} alt="Community member" />
                   <h4>Destiny: Wolf</h4>
                 </div>
                 <div className="col-sm-9 details-section">
@@ -53,24 +78,21 @@ export default class AREXhibition extends React.Component {
                     <button type="button" className="btn action-btn">Follow</button>
                   </div>
                   <p className="pt-20">
-                    Dad has always been there for me. He was a man with a big heart.
+                    DeFi changed my life completely...
                   </p>
-                  <p className="pt-20">He always said "Flowers are forever".</p>
-                  <p>He loved giving flowers. For him they were the ultimate representation of love.</p>
-                  <p>The love he taught us has kept us united even through the worst times.</p>
+                  <p className="pt-20">So, here's to DeFi...</p>
                   <p className="pt-20">
-                    I miss you, I love you and I'm dedicating this Royal to you cos you raised us like a true king.
+                    LONG LIVE CRYPTO!!! @George_XY (twitter) was here
                   </p>
-                  <p> - In loving memory of Sr. Gregory Flynn</p>
                   <div className="d-flex justify-content-between pt-30 special-action-section">
-                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>2.9</span></button>
-                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>200</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>0.05</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>16</span></button>
                   </div>
                 </div>
               </div>
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
-                  <img src={pic1} alt="Community member" />
+                  <img src={pic3} alt="Community member" />
                   <h4>Destiny: Dove</h4>
                 </div>
                 <div className="col-sm-9 details-section">
@@ -96,82 +118,47 @@ export default class AREXhibition extends React.Component {
               </div>
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
-                  <img src={pic1} alt="Community member" />
-                  <h4>Destiny: Dove</h4>
+                  <img src={pic4} alt="Community member" />
+                  <h4>Destiny: Honey Bee</h4>
                 </div>
                 <div className="col-sm-9 details-section">
                   <div className="d-flex justify-content-between">
-                    <h3>Super Dad</h3>
+                    <h3>King Meme III</h3>
                     <button type="button" className="btn action-btn">Follow</button>
                   </div>
                   <p className="pt-20">
-                    Dad has always been there for me. He was a man with a big heart.
+                    I, King Meme The Third, do solemnly swear to be a harsh dictator and punish you all - my subjects - with the most funny, mind bending memes you have ever seen.
                   </p>
-                  <p className="pt-20">He always said "Flowers are forever".</p>
-                  <p>He loved giving flowers. For him they were the ultimate representation of love.</p>
-                  <p>The love he taught us has kept us united even through the worst times.</p>
+                  <p className="pt-20">I swear to punish you all the days of your meme-serable lives with memes that make you laugh hard till you beg FOR MY MERCY.</p>
                   <p className="pt-20">
-                    I miss you, I love you and I'm dedicating this Royal to you cos you raised us like a true king.
-                  </p>
-                  <p> - In loving memory of Sr. Gregory Flynn</p>
+                    Hahahaha hahahaha hahahaha hahahaha hahahaha</p>
                   <div className="d-flex justify-content-between pt-30 special-action-section">
-                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>2.9</span></button>
-                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>200</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>5.23</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>1,235</span></button>
                   </div>
                 </div>
               </div>
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
-                  <img src={pic1} alt="Community member" />
-                  <h4>Destiny: Wolf</h4>
+                  <img src={pic5} alt="Community member" />
+                  <h4>Destiny: Eagle</h4>
                 </div>
                 <div className="col-sm-9 details-section">
                   <div className="d-flex justify-content-between">
-                    <h3>King Hobbs III</h3>
+                    <h3>Black Moon Charity</h3>
                     <button type="button" className="btn action-btn">Follow</button>
                   </div>
                   <p className="pt-20">
-                    Dad has always been there for me. He was a man with a big heart.
+                    This NFT is dedicated to the Black Moon Charity which is a charity foundation focused on bringing education to underprivileged children around the world through building of schools, partial and full scholarships, provison of learning materials, teacher training and deployment.
                   </p>
-                  <p className="pt-20">He always said "Flowers are forever".</p>
-                  <p>He loved giving flowers. For him they were the ultimate representation of love.</p>
-                  <p>The love he taught us has kept us united even through the worst times.</p>
-                  <p className="pt-20">
-                    I miss you, I love you and I'm dedicating this Royal to you cos you raised us like a true king.
-                  </p>
-                  <p> - In loving memory of Sr. Gregory Flynn</p>
+                  <p className="pt-20">"Education is the most powerful weapon which you can use to change the world" - Nelson Mandela</p>
                   <div className="d-flex justify-content-between pt-30 special-action-section">
-                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>2.9</span></button>
-                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>200</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>0.8</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>69</span></button>
                   </div>
                 </div>
               </div>
-              <div className="d-flex community-knlD">
-                <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
-                  <img src={pic1} alt="Community member" />
-                  <h4>Destiny: Wolf</h4>
-                </div>
-                <div className="col-sm-9 details-section">
-                  <div className="d-flex justify-content-between">
-                    <h3>King Hobbs III</h3>
-                    <button type="button" className="btn action-btn">Follow</button>
-                  </div>
-                  <p className="pt-20">
-                    Dad has always been there for me. He was a man with a big heart.
-                  </p>
-                  <p className="pt-20">He always said "Flowers are forever".</p>
-                  <p>He loved giving flowers. For him they were the ultimate representation of love.</p>
-                  <p>The love he taught us has kept us united even through the worst times.</p>
-                  <p className="pt-20">
-                    I miss you, I love you and I'm dedicating this Royal to you cos you raised us like a true king.
-                  </p>
-                  <p> - In loving memory of Sr. Gregory Flynn</p>
-                  <div className="d-flex justify-content-between pt-30 special-action-section">
-                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>2.9</span></button>
-                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>200</span></button>
-                  </div>
-                </div>
-              </div>
+              
             </Slider>
           </div>
           <div className="text-center mb-80">

@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import BuyRoyal from './components/BuyRoyal';
+import ShowCase from './components/ShowCase';
 import ARExhibition from './components/ARExhibition';
 import Distribution from './components/Distribution';
 import RoadMap from './components/RoadMap';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <BuyRoyal/>
+      <ShowCase/>
       <ARExhibition/>
       <Distribution/>
       <RoadMap/>
