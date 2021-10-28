@@ -23,7 +23,7 @@ export default class AREXhibition extends React.Component {
   
   resetGallery = () => {
     if (!this.state.hasScrolled) {
-      this.gallerySliderRef.current?.scrollToSlide(3);
+      this.gallerySliderRef.current?.scrollToSlide(2);
       this.setState({ hasScrolled: true })
     }
   }

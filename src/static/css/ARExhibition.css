@@ -6,10 +6,6 @@
   font-family: "Josefin Sans", sans-serif;
   margin-bottom: 35px;
 }
-.action-btn img {
-  width: 164px;
-  height: 164px;
-}
 .xniR-wrapper {
   background: #a58459
     radial-gradient(closest-side at 50% 50%, #a58459 0%, #110d09 100%) 0% 0%
@@ -128,8 +124,8 @@
   color: #372c1e;
 }
 .community-knlD .details-section .action-btn img {
-  height: 20px;
-  width: 16px;
+  height: auto;
+  width: 13px;
   margin-right: 3px;
 }
 .community-knlD .details-section p {
