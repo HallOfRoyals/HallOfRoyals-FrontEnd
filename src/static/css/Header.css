@@ -6,17 +6,17 @@
   width: 100%;
   height: 100%;
 }
-@media (min-width: 768px) and (max-width: 1199px){
+@media (min-width: 768px) and (max-width: 1199px) {
   .bg_cover {
     background-size: cover;
   }
 }
-@media (max-width: 540px){
+@media (max-width: 540px) {
   .bg_cover {
     background-size: 100% 100%;
   }
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .bg-film {
     display: none;
   }
@@ -292,8 +292,8 @@
 }
 @media (max-width: 767px) {
   .header-hero {
-  height: auto;
-}
+    height: auto;
+  }
 }
 .header-hero-content {
   position: relative;
@@ -373,6 +373,20 @@
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+@media (max-width: 416px) {
+  .header-hero-content .text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .header-hero-content .text:after {
+    background-image: url(../images/ellipse-m.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: -38%;
+    height: 250px;
+  }
 }
 .header-helper-caption {
   margin-top: 15px;
