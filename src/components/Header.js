@@ -47,14 +47,8 @@ export default function Header() {
             <h3 className="header-title">Hall Of Royals</h3>
             <h5 className="header-title-helper">(A Royal Hall Of Fame)</h5>
             <div className="d-flex justify-content-center mt-40">
-              <p className="text">Inspired by the "Bronze Heads" of the ancient Benin Kingdom which were cast in honor of Kings and Queens</p>
+              <p className="text">Inspired by the "Bronze Heads" of the<br/>ancient Benin Kingdom which were cast<br/>in honor of Kings and Queens</p>
             </div>
-            <div className="header-helper-caption">
-              <p>A collection of 13,500 unique "Royals" to immortalize the</p>
-              <p>present day Kings & Queens</p>
-              <p>- forever on the blockchain</p>
-            </div>
-
             <ul className="social-icons">
               <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
                 <img src={socialIconOne} alt="Discord" />

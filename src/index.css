@@ -90,6 +90,9 @@ p {
   color: #747e88;
   margin: 0px;
 }
+.text-right {
+  text-align: right;
+}
 @media (min-width: 576px) {
   .container-sm,
   .container {
@@ -102,6 +105,9 @@ p {
   .container-sm,
   .container {
     max-width: 820px;
+  }
+.magic-pr-100 {
+    padding-right: 60px;
   }
 }
 @media (min-width: 992px) {

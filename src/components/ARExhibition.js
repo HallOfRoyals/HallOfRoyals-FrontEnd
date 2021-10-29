@@ -39,8 +39,8 @@ export default class AREXhibition extends React.Component {
           <div className="text-center mb-80">
             <h2>Story & Community</h2>
           </div>
-          <p className="notice">Inspired by the ancient Benin Kingdom " Bronze Heads" which were cast in honour of Kings and Queens</p>
-          <p className="info">The "'Royals" NFT will be used to honor and immortalize individuals, ideas, projects and every other thing that holders wish to to dedicate their Royals" to</p>
+          <p className="notice">A collection of 13,500 unique "Royals" to immortalize the present day Kings and Queens - forever on the blockchain</p>
+          <p className="info">Hall of Royals is a collection of 13,500 unique & algorithm generated "Royals" to immortlize people, ideas, projects, etc. - forever on the blockchain</p>
           <div className="mb-50 community-knlD-wrapper">
             <Slider
               ref={this.gallerySliderRef}
@@ -198,7 +198,7 @@ export default class AREXhibition extends React.Component {
             <p className="mb-30">Each post you make in your Royal Diary also has a "Tip" button and can also be tipped in ETH</p>
             <p>UTILITY: Your Royal can; earn you passive income without being sold; be used as a fundraiser; to raise money for a cause; to launch a book; to crowdfund; etc.</p>
           </div>
-          <p className="info mt-30 mb-0">Other member benefits include "voting rights" as explanied in the roadmap below</p>
+          <p className="info mt-30 mb-0">Other member benefits include 3D printing file + "voting rights" as explanied in the roadmap below</p>
         </div>
       </div>
     </section>);

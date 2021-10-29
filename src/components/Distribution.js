@@ -14,7 +14,7 @@ export default function Distribution() {
         </div>
         <Container>
           <Row className="justify-content-around">
-            <Col className="text-center dounut-chart" sm={6}>
+            <Col className="text-right magic-pr-100 dounut-chart" sm={6}>
               <img src={dounutChart} alt="Royals Distribution" />
             </Col>
             <Col className="d-flex flex-column justify-content-center align-items-start magic-mt-10" md={6}>
