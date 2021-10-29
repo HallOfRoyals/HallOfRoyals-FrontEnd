@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 
 import SectionTitle from './SectionTitle';
-import dounutChart from '../static/images/dounut-chart.svg';
+import dounutChart from '../static/images/dounut-chart.png';
 
 export default function Distribution() {
   return (

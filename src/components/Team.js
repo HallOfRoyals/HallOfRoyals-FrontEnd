@@ -40,14 +40,14 @@ export default function RoadMap() {
           <Col className="d-flex flex-column justify-content-center align-items-center" xs={6} md={4}>
             <img src={teamMember1} alt="" className="team-photo" />
             <div className="text-center team-desc">
-              <h3>Sky_Fantasy</h3>
+              <h3>Man from Ado</h3>
               <span>Product Manager</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
             <img src={teamMember2} alt="" className="team-photo" />
             <div className="text-center team-desc">
-              <h3>Sky_fantasy</h3>
+              <h3>The Surrealist</h3>
               <span>Product Designer</span>
             </div>
           </Col>
@@ -71,21 +71,21 @@ export default function RoadMap() {
           <Col className="d-flex flex-column justify-content-center align-items-center" xs={6} md={4}>
             <img src={teamMember4} alt="" className="team-photo" />
             <div className="text-center team-desc">
-              <h3>Lord Of The Dark Tides</h3>
-              <span>AR/VR/Software developers</span>
+              <h3>King of the Hives</h3>
+              <span>Software Engineer</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
             <img src={teamMember5} alt="" className="team-photo" />
             <div className="text-center team-desc">
-              <h3>Dimensun</h3>
-              <span>3D Artist</span>
+              <h3>Hopkins</h3>
+              <span>AR/VR/Software Developer</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
             <img src={teamMember6} alt="" className="team-photo" />
             <div className="text-center team-desc">
-              <h3>Lord Of The Dark Tides</h3>
+              <h3>Ancient Dreamer</h3>
               <span>3D/2D Artist</span>
             </div>
           </Col>
