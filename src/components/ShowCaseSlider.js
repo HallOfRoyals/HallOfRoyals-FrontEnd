@@ -1,6 +1,7 @@
 import React from 'react';
 import { Slider } from '@lifarl/react-scroll-snap-slider';
 import styled from 'styled-components';
+import '../static/css/ShowCase.css';
 
 const StyledPagination = styled.div`
   list-style: none;
