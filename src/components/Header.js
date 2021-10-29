@@ -1,6 +1,5 @@
 import socialIconOne from '../static/images/social-icon1.svg';
 import socialIconTwo from '../static/images/social-icon2.svg';
-import socialIconThree from '../static/images/social-icon3.svg';
 import logo from '../static/images/logo.png';
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-scroll';
