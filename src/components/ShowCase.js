@@ -67,7 +67,7 @@ function useWindowSize() {
 }
 
 export default function ShowCase() {
-  const [width, _] = useWindowSize();
+  const width = useWindowSize()[0];
   if (width > 0) {
     if (width <= 800 && width > 510) {
       settings.slidesToShow = 2;
