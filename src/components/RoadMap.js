@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle';
 
 export default function RoadMap() {
   return (
-    <section className="pb-120">
+    <section id="roadmap" className="pb-120">
       <div className="container">
         <div className="d-flex justify-content-center pt-20">
           <SectionTitle title="Roadmap" />

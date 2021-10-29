@@ -1,6 +1,7 @@
 import React from 'react';
 import '../static/css/ARExhibition.css';
 import SectionTitle from './SectionTitle';
+import { Link } from 'react-scroll';
 import { Slider } from '@lifarl/react-scroll-snap-slider';
 import pic1 from '../static/images/community/1.png';
 import pic2 from '../static/images/community/2.png';
@@ -38,14 +39,17 @@ export default class AREXhibition extends React.Component {
   }
 
   render() {
-    return (<section className="pb-70">
+    return (<section id="story" className="pb-70">
       <div className="xniR-wrapper">
         <div className="container pt-100 pb-40">
           <div className="text-center mb-80">
             <h2>Story & Community</h2>
           </div>
           <p className="notice">A collection of 13,500 unique "Royals" to immortalize the present day Kings and Queens - forever on the blockchain</p>
-          <p className="info">Hall of Royals is a collection of 13,500 unique & algorithm generated "Royals" to immortlize people, ideas, projects, etc. - forever on the blockchain</p>
+          <p className="info">Hall of Royals was inspired by the "bronze heads" of the Ancient Benin Kingdom. These Bronze Heads were used in ancient times to honor Kings and Queens of the Benin Kingdom.</p>
+          <p className="info">The Bronze Heads have a rich history of culture and conquest with most of them now sitting in museums across Europe.</p>
+          <p className="info">However, via this project the Bronze Heads will find fresh meaning, a new expression and fusion with modern culture - a bridge between the ancient and the new.</p>
+          <p className="info">So, leveraging the power of 3D technology and Web 3.0, Hall Of Royals will be used to not just honor and immortalize ourselves but also to give expression and recognition to ideas, projects and all else that we hold dear.</p>
           <div className="mb-50 community-knlD-wrapper">
             <Slider
               ref={this.gallerySliderRef}
@@ -204,7 +208,7 @@ export default class AREXhibition extends React.Component {
             <p className="mb-30">Each post you make in your Royal Diary also has a "Tip" button and can also be tipped in ETH</p>
             <p>UTILITY: Your Royal can; earn you passive income without being sold; be used as a fundraiser; to raise money for a cause; to launch a book; to crowdfund; etc.</p>
           </div>
-          <p className="info mt-30 mb-0">Other member benefits include 3D printing file + "voting rights" as explanied in the roadmap below</p>
+          <p className="info mt-30 mb-0">Other member benefits include 3D printing file + "voting rights" as explanied in the <Link to="roadmap" spy={true} smooth={true}>roadmap</Link> below</p>
         </div>
       </div>
     </section>);

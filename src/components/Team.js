@@ -12,7 +12,7 @@ import teamMember6 from '../static/images/team/6.png';
 
 export default function RoadMap() {
   return (
-    <section className="pb-120">
+    <section id="team" className="pb-120">
       <div className="container">
         <div className="d-flex justify-content-center pt-20">
           <SectionTitle title="Team" />

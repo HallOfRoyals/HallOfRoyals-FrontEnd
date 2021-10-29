@@ -1,7 +1,8 @@
 import socialIconOne from '../static/images/social-icon1.svg';
 import socialIconTwo from '../static/images/social-icon2.svg';
 import socialIconThree from '../static/images/social-icon3.svg';
-import Accordion from 'react-bootstrap/Accordion'
+import Accordion from 'react-bootstrap/Accordion';
+import { Link } from 'react-scroll';
 import NavToggler from './NavToggle';
 import '../static/css/Header.css';
 
@@ -20,16 +21,16 @@ export default function Header() {
                   <Accordion.Collapse className="navbar-collapse hide sub-menu-bar" eventKey="0">
                     <ul id="nav" className="navbar-nav ms-sm-auto">
                       <li className="nav-item">
-                        <a className="page-scroll" href="/#features">HOR</a>
+                        <Link to="story" spy={true} smooth={true}>HOR</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="page-scroll" href="/#download">Mint</a>
+                        <Link to="home" spy={true} smooth={true}>Mint</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="page-scroll" href="/#footer-contact-info">Roadmap</a>
+                        <Link to="roadmap" spy={true} smooth={true}>Roadmap</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="page-scroll" href="/#footer-contact-info">Team</a>
+                        <Link to="team" spy={true} smooth={true}>Team</Link>
                       </li>
                     </ul>
                   </Accordion.Collapse>
@@ -50,7 +51,8 @@ export default function Header() {
               <p className="text">Inspired by the "Bronze Heads" of the<br/>ancient Benin Kingdom which were cast<br/>in honor of Kings and Queens</p>
             </div>
             <ul className="social-icons">
-              <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
+              <li>
+                <a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
                 <img src={socialIconOne} alt="Discord" />
               </a></li>
               <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
