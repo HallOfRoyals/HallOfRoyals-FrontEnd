@@ -9,13 +9,13 @@
   width: 580px;
   max-width: 100%;
 }
-.showcase .OKjbY .cXDYrb {
+.showcase .OKjbY .cXDYrb, .showcase .OKjbY .haYhsB {
   width: 24px;
   height: 24px;
   border: 1.7px solid #a58459;
   background: transparent;
 }
-.showcase .OKjbY .fWhfCr {
+.showcase .OKjbY .fWhfCr, .showcase .OKjbY .jnhKGx {
   width: 24px;
   height: 24px;
   background: #a58459 0% 0% no-repeat padding-box;
@@ -23,6 +23,7 @@
 }
 @media (max-width: 767px) {
   .showcase .OKjbY .cXDYrb,
+  .showcase .OKjbY .haYhsB,
   .showcase .OKjbY .fWhfCr {
     width: 16px;
     height: 16px;
