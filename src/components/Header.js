@@ -1,6 +1,7 @@
 import socialIconOne from '../static/images/social-icon1.svg';
 import socialIconTwo from '../static/images/social-icon2.svg';
 import socialIconThree from '../static/images/social-icon3.svg';
+import logo from '../static/images/logo.png';
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-scroll';
 import NavToggler from './NavToggle';
@@ -45,6 +46,9 @@ export default function Header() {
         <div className="bg-film"></div>
         <div className="container">
           <div className="d-flex flex-column justify-content-center text-center header-hero-content">
+            <div className="d-flex justify-content-center text-center logo">
+              <img src={logo} alt="" />
+            </div>
             <h3 className="header-title">Hall Of Royals</h3>
             <h5 className="header-title-helper">(A Royal Hall Of Fame)</h5>
             <div className="d-flex justify-content-center mt-40">
