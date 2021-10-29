@@ -7,6 +7,11 @@ import pic2 from '../static/images/community/2.png';
 import pic3 from '../static/images/community/3.png';
 import pic4 from '../static/images/community/4.png';
 import pic5 from '../static/images/community/5.png';
+import wolf from '../static/images/community/wolf.png';
+import dove from '../static/images/community/dove.png';
+import bee from '../static/images/community/bee.png';
+import eagle from '../static/images/community/eagle.png';
+import pheonix from '../static/images/community/phoenix.png';
 import iconEther from '../static/images/icon-ethereum.png';
 import iconHeart from '../static/images/icon-heart.png';
 
@@ -49,28 +54,7 @@ export default class AREXhibition extends React.Component {
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
                   <img src={pic1} alt="Community member" />
-                  <h4>Destiny: Phoenix</h4>
-                </div>
-                <div className="col-sm-9 details-section">
-                  <div className="d-flex justify-content-between">
-                    <h3>Loss and raising kids</h3>
-                    <button type="button" className="btn action-btn">Follow</button>
-                  </div>
-                  <p className="pt-20">
-                    I'm dedicating this royal to myself. I'm a single mom with three kids. My hubby died in the line of duty shortly after our third child was born. I never thought I could do it... I was depressed for over a year but I had to find my way back for my kids.
-                  </p>
-                  <p className="pt-20">It's been 8 years now and I and my kids are doing great. It's tough but hey, what isn't. Believe in yourself and you too can achieve anything. I'm dedicating my Royal NFT to my book "Loss and raising kids" where I share my experience and how I rose like a phoenix from the ashes
-                  </p>
-                  <div className="d-flex justify-content-between pt-30 special-action-section">
-                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>1.5</span></button>
-                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>101</span></button>
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex community-knlD">
-                <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
-                  <img src={pic2} alt="Community member" />
-                  <h4>Destiny: Wolf</h4>
+                  <h4>Destiny: Wolf <img src={wolf} alt="wolf"/></h4>
                 </div>
                 <div className="col-sm-9 details-section">
                   <div className="d-flex justify-content-between">
@@ -92,8 +76,30 @@ export default class AREXhibition extends React.Component {
               </div>
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
+                  <img src={pic2} alt="Community member" />
+                  <h4>Destiny: Phoenix <img src={pheonix} alt="wolf" /></h4>
+                </div>
+                <div className="col-sm-9 details-section">
+                  <div className="d-flex justify-content-between">
+                    <h3>Loss and raising kids</h3>
+                    <button type="button" className="btn action-btn">Follow</button>
+                  </div>
+                  <p className="pt-20">
+                    I'm dedicating this royal to myself. I'm a single mom with three kids. My hubby died in the line of duty shortly after our third child was born. I never thought I could do it... I was depressed for over a year but I had to find my way back for my kids.
+                  </p>
+                  <p className="pt-20">It's been 8 years now and I and my kids are doing great. It's tough but hey, what isn't. Believe in yourself and you too can achieve anything. I'm dedicating my Royal NFT to my book "Loss and raising kids" where I share my experience and how I rose like a phoenix from the ashes
+                  </p>
+                  <div className="d-flex justify-content-between pt-30 special-action-section">
+                    <button type="button" className="btn action-btn"><img src={iconEther} alt="Ethereum" /><span>1.5</span></button>
+                    <button type="button" className="btn action-btn"><img src={iconHeart} alt="Ethereum" /><span>101</span></button>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="d-flex community-knlD">
+                <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
                   <img src={pic3} alt="Community member" />
-                  <h4>Destiny: Dove</h4>
+                  <h4>Destiny: Dove <img src={dove} alt="wolf" /></h4>
                 </div>
                 <div className="col-sm-9 details-section">
                   <div className="d-flex justify-content-between">
@@ -119,7 +125,7 @@ export default class AREXhibition extends React.Component {
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
                   <img src={pic4} alt="Community member" />
-                  <h4>Destiny: Honey Bee</h4>
+                  <h4>Destiny: Honey Bee <img src={bee} alt="wolf" /></h4>
                 </div>
                 <div className="col-sm-9 details-section">
                   <div className="d-flex justify-content-between">
@@ -141,7 +147,7 @@ export default class AREXhibition extends React.Component {
               <div className="d-flex community-knlD">
                 <div className="col-sm-3 d-flex flex-column align-items-center text-center profile">
                   <img src={pic5} alt="Community member" />
-                  <h4>Destiny: Eagle</h4>
+                  <h4>Destiny: Eagle <img src={eagle} alt="wolf" /></h4>
                 </div>
                 <div className="col-sm-9 details-section">
                   <div className="d-flex justify-content-between">
