@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import '../static/css/ARExhibition.css';
 import SectionTitle from './SectionTitle';
 import { Slider } from '@lifarl/react-scroll-snap-slider';

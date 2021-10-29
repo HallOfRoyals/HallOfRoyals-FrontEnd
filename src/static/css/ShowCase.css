@@ -1,35 +1,27 @@
-.caseImages img {
+.case {
+  margin: 15px;
   width: 100%;
   height: 100%;
-  max-height: 500px;
+  max-height: 480px;
+  vertical-align: top;
+  backface-visibility: hidden;
 }
 
-.showcase .OKjbY, .showcase .dWMbtA {
-  margin-top: 30px;
-  width: 580px;
-  max-width: 100%;
+.showcase .slick-dots {
+  bottom: -30px;
 }
-.showcase .OKjbY .cXDYrb, .showcase .dWMbtA .haYhsB {
-  width: 20px;
-  height: 20px;
-  border: 1.7px solid #a58459;
-  background: transparent;
+.showcase .slick-dots li button:before {
+  font-size: 17px;
+  color: #a58459;
 }
-.showcase .OKjbY .fWhfCr, .showcase .dWMbtA .jnhKGx {
-  width: 20px;
-  height: 20px;
-  background: #a58459 0% 0% no-repeat padding-box;
-  border: 1.7px solid #a58459;
+.showcase .slick-dots li.slick-active button:before {
+  color: #a58459;
 }
 @media (max-width: 767px) {
-  .showcase .OKjbY .cXDYrb,
-  .showcase .dWMbtA .haYhsB,
-  .showcase .dWMbtA .jnhKGx,
-  .showcase .OKjbY .fWhfCr {
-    width: 16px;
-    height: 16px;
-  }
+  .showcase .slick-dots {
+  bottom: -40px;
 }
-.showcase .sc-gsDKAQ {
-  display: none !important;
+  .showcase .slick-dots li button:before {
+  font-size: 13px;
+}
 }

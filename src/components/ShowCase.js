@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect, useState } from 'react';
 import '../static/css/ShowCase.css';
 import pic1 from '../static/images/showcase/1.png';
 import pic2 from '../static/images/showcase/2.png';
@@ -18,48 +18,71 @@ import pic15 from '../static/images/showcase/15.png';
 import pic16 from '../static/images/showcase/16.png';
 import ShowCaseSlider from './ShowCaseSlider';
 
-export default class ShowCase extends React.Component {
-  constructor(props) {
-    super(props)
-    this.gallerySliderRef = React.createRef();
-    this.state = {
-      slidesPerPageSettings: {
-        mobileSmall: 1.1,
-        mobileBig: 1.1,
-        tablet: 1.2,
-        desktop: 1.2,
-      },
-      hasScrolled: false
+const slides = [
+  { "image": pic1 },
+  { "image": pic2 },
+  { "image": pic3 },
+  { "image": pic4 },
+  { "image": pic5 },
+  { "image": pic6 },
+  { "image": pic7 },
+  { "image": pic8 },
+  { "image": pic9 },
+  { "image": pic10 },
+  { "image": pic11 },
+  { "image": pic12 },
+  { "image": pic13 },
+  { "image": pic14 },
+  { "image": pic15 },
+  { "image": pic16 },
+];
+
+const settings = {
+  dots: true,
+  arrows: false,
+  infinite: true,
+  slidesToShow: 3.4,
+  slidesToScroll: 1,
+  className: "center",
+  centerMode: true,
+  autoplay: true,
+  speed: 500,
+  autoplaySpeed: 3000,
+  swipeToSlide: true,
+  pauseOnHover: true,
+  cssEase: "linear"
+}
+
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0]);
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+  return size;
+}
+
+export default function ShowCase() {
+  const [width, _] = useWindowSize();
+  if (width > 0) {
+    if (width <= 800 && width > 510) {
+      settings.slidesToShow = 2;
+      return (<section className="showcase pb-50">
+        <ShowCaseSlider settings={settings} slides={slides} />
+      </section>);
+    } else if (width <= 510) {
+      settings.slidesToShow = 1;
+      return (<section className="showcase pb-50">
+        <ShowCaseSlider settings={settings} slides={slides} />
+      </section>);
     }
   }
 
-  resetGallery = () => {
-    if (!this.state.hasScrolled) {
-      this.gallerySliderRef.current?.scrollToSlide(2);
-      this.setState({ hasScrolled: true })
-    }
-  }
-
-  render() {
-    return (<section className="showcase pb-50">
-      <ShowCaseSlider>
-        <img src={pic1} alt="showcase"/>
-        <img src={pic2} alt="showcase"/>
-        <img src={pic3} alt="showcase"/>
-        <img src={pic4} alt="showcase"/>
-        <img src={pic5} alt="showcase"/>
-        <img src={pic6} alt="showcase"/>
-        <img src={pic7} alt="showcase"/>
-        <img src={pic8} alt="showcase"/>
-        <img src={pic9} alt="showcase"/>
-        <img src={pic10} alt="showcase"/>
-        <img src={pic11} alt="showcase"/>
-        <img src={pic12} alt="showcase"/>
-        <img src={pic13} alt="showcase"/>
-        <img src={pic14} alt="showcase"/>
-        <img src={pic15} alt="showcase"/>
-        <img src={pic16} alt="showcase"/>
-      </ShowCaseSlider>
-    </section>);
-  }
+  return (<section className="showcase pb-50">
+    <ShowCaseSlider settings={settings} slides={slides} />
+  </section>);
 }
