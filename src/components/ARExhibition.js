@@ -38,9 +38,9 @@ export default class AREXhibition extends React.Component {
   }
 
   render() {
-    return (<section className="pb-120">
+    return (<section className="pb-70">
       <div className="xniR-wrapper">
-        <div className="container pt-100 pb-100">
+        <div className="container pt-100 pb-40">
           <div className="text-center mb-80">
             <h2>Story & Community</h2>
           </div>
@@ -172,7 +172,7 @@ export default class AREXhibition extends React.Component {
           </div>
           <p className="notice">Buying a Royal makes you a member of the Royal Hall Of Fame</p>
           <p className="info">Each memeber's NFT doubles as their profile</p>
-          <div className="col-md-10 xniR-card text-center pt-40 pb-20 pl-20 pr-20">
+          <div className="col-md-10 xniR-card text-center pt-40 pb-40 pl-20 pr-20">
             <div className="d-flex justify-content-center pt-20">
               <SectionTitle title="Hall Of Royals" />
             </div>
@@ -183,7 +183,7 @@ export default class AREXhibition extends React.Component {
             <p>Each Royal has an "Archive".</p>
             <p>Content from all previous buyers/owners are stored forever in it's Archive</p>
           </div>
-          <div className="col-md-10 xniR-card text-center pt-40 pb-20 pl-20 pr-20">
+          <div className="col-md-10 xniR-card text-center pt-40 pb-40 pl-20 pr-20">
             <div className="d-flex justify-content-center pt-20">
               <SectionTitle title="Royal Diary" />
             </div>
@@ -194,7 +194,7 @@ export default class AREXhibition extends React.Component {
             <p className="mb-30">The content (memes, photography, your life's story, your book, etc.) you put into your Royal NFT can help increase it's value IRRESPECTIVE OF IT'S RARITY.</p>
             <p>The more interesting your content is the more valuable your NFT becomes because whoever buys it also gets to own all that content.</p>
           </div>
-          <div className="col-md-10 xniR-card text-center pt-40 pb-20 pl-20 pr-20">
+          <div className="col-md-10 xniR-card text-center pt-40 pb-40 pl-20 pr-20">
             <div className="d-flex justify-content-center pt-20">
               <SectionTitle title="Royal Earning" />
             </div>
