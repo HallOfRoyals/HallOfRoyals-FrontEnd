@@ -56,15 +56,15 @@ export default function Header() {
             </div>
             <ul className="social-icons">
               <li>
-                <a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
+                <a href="https://discord.gg/R8PQbnGZH2">
                 <img src={socialIconOne} alt="Discord" />
               </a></li>
-              <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
+              <li><a href="https://twitter.com/HallofRoyals?s=09">
                 <img src={socialIconTwo} alt="Twitter" />
               </a></li>
-              <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
+              {/* <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
                 <img src={socialIconThree} alt="Opensea" />
-              </a></li>
+              </a></li> */}
             </ul>
           </div>
         </div>
