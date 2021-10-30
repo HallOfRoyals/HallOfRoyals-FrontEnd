@@ -32,7 +32,7 @@ export default function RoadMap() {
         </div>
       </div>
       <Container style={{ marginTop: -50 }}>
-        <p className="desc-title">We are a technology company specialized in blcokchain development, SaaS, AR & VR development, 3D design etc.</p>
+        <p className="desc-title">We are a technology company specialized in blockchain development, SaaS, AR & VR development, 3D design etc.</p>
         <p className="desc-title">We are a dedicated bunch and we're here to take you on a Great Sail</p>
       </Container>
       <Container className="d-flex flex-column justifly-content-center">
