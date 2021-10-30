@@ -55,10 +55,10 @@ export default function RoadMap() {
             <div className="team-photo-wrapper">
               <img src={teamMember3} alt="" className="team-photo" />
               <div className={isShowingSocial ? 'd-flex flex-column team-social': 'd-none'}>
-                <a href="https://youtube.com/channel/UCl2oOhWeblU-NQedxjdG6eQ"><img src={social4} alt="social" /></a>
-                <a href="https://www.artstation.com/syndicatedart"><img src={social3} alt="social" /></a>
-                <a href="https://www.instagram.com/syndicated_art"><img src={social2} alt="social" /></a>
-                <a href="https://twitter.com/syndicated_art"><img src={social1} alt="social" /></a>
+                <a target="_blank" rel="noreferrer" href="https://youtube.com/channel/UCl2oOhWeblU-NQedxjdG6eQ"><img src={social4} alt="social" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.artstation.com/syndicatedart"><img src={social3} alt="social" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/syndicated_art"><img src={social2} alt="social" /></a>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/syndicated_art"><img src={social1} alt="social" /></a>
               </div>
             </div>
             <div className="text-center team-desc">
