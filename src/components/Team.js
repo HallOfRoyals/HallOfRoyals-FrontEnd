@@ -18,10 +18,22 @@ import socialAnchor from '../static/images/team/social-anchor.png';
 
 export default function RoadMap() {
   const [isShowingSocial, setShowSocial] = useState(false);
+  const [isShowingSocial1, setShowSocial1] = useState(false);
+  const [isShowingSocial2, setShowSocial2] = useState(false);
 
   const toggleSocial = () => {
     const isShowing = !isShowingSocial;
     setShowSocial(isShowing);
+  }
+
+  const toggleSocial1 = () => {
+    const isShowing = !isShowingSocial1;
+    setShowSocial1(isShowing);
+  }
+
+  const toggleSocial2 = () => {
+    const isShowing = !isShowingSocial2;
+    setShowSocial2(isShowing);
   }
 
   return (
@@ -40,24 +52,24 @@ export default function RoadMap() {
           <Col className="d-flex flex-column justify-content-center align-items-center" xs={6} md={4}>
             <div className="team-photo-wrapper">
               <img src={teamMember1} alt="" className="team-photo" />
-              <div className={isShowingSocial ? 'd-flex flex-column team-social' : 'd-none'}>
+              <div className={isShowingSocial1 ? 'd-flex flex-column team-social' : 'd-none'} style={{ right: '28%' }}>
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/Adowei_George"><img src={social1} alt="social" /></a>
               </div>
             </div>
             <div className="text-center team-desc">
-              <h3>Man from Ado <img onClick={toggleSocial} src={socialAnchor} alt="" /></h3>
+              <h3>Man from Ado <img onClick={toggleSocial1} src={socialAnchor} alt="" /></h3>
               <span>Product Manager</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
             <div className="team-photo-wrapper">
               <img src={teamMember2} alt="" className="team-photo" />
-              <div className={isShowingSocial ? 'd-flex flex-column team-social' : 'd-none'}>
+              <div className={isShowingSocial2 ? 'd-flex flex-column team-social' : 'd-none'} style={{right: '28%'}}>
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/TheSurrealyst"><img src={social1} alt="social" /></a>
               </div>
             </div>
             <div className="text-center team-desc">
-              <h3>The Surrealist <img onClick={toggleSocial} src={socialAnchor} alt="" /></h3>
+              <h3>The Surrealist <img onClick={toggleSocial2} src={socialAnchor} alt="" /></h3>
               <span>Product Designer</span>
             </div>
           </Col>
