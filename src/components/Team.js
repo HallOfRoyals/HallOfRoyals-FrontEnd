@@ -38,14 +38,24 @@ export default function RoadMap() {
       <Container className="d-flex flex-column justifly-content-center">
         <Row className="mt-35 align-items-center justify-content-around">
           <Col className="d-flex flex-column justify-content-center align-items-center" xs={6} md={4}>
-            <img src={teamMember1} alt="" className="team-photo" />
+            <div className="team-photo-wrapper">
+              <img src={teamMember1} alt="" className="team-photo" />
+              <div className={isShowingSocial ? 'd-flex flex-column team-social' : 'd-none'}>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/Adowei_George"><img src={social1} alt="social" /></a>
+              </div>
+            </div>
             <div className="text-center team-desc">
               <h3>Man from Ado</h3>
               <span>Product Manager</span>
             </div>
           </Col>
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
-            <img src={teamMember2} alt="" className="team-photo" />
+            <div className="team-photo-wrapper">
+              <img src={teamMember2} alt="" className="team-photo" />
+              <div className={isShowingSocial ? 'd-flex flex-column team-social' : 'd-none'}>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/TheSurrealyst"><img src={social1} alt="social" /></a>
+              </div>
+            </div>
             <div className="text-center team-desc">
               <h3>The Surrealist</h3>
               <span>Product Designer</span>
