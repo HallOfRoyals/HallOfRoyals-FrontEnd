@@ -52,7 +52,7 @@ export default function RoadMap() {
           <Col className="d-flex flex-column justify-content-center align-items-center" xs={6} md={4}>
             <div className="team-photo-wrapper">
               <img src={teamMember1} alt="" className="team-photo" />
-              <div className={isShowingSocial1 ? 'd-flex flex-column team-social' : 'd-none'} style={{ right: '28%' }}>
+              <div className={isShowingSocial1 ? 'd-flex flex-column team-social ts-2' : 'd-none'}>
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/Adowei_George"><img src={social1} alt="social" /></a>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function RoadMap() {
           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
             <div className="team-photo-wrapper">
               <img src={teamMember2} alt="" className="team-photo" />
-              <div className={isShowingSocial2 ? 'd-flex flex-column team-social' : 'd-none'} style={{right: '28%'}}>
+            <div className={isShowingSocial2 ? 'd-flex flex-column team-social ts-2' : 'd-none'}>
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/TheSurrealyst"><img src={social1} alt="social" /></a>
               </div>
             </div>

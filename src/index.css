@@ -1175,6 +1175,10 @@ p.desc {
   right: 20%;
   bottom: 0;
 }
+.ts-2 {
+  bottom: 20px !important;
+  right: 25% !important;
+}
 @media (max-width: 1161px) {
   .team-social {
     right: 19%;
@@ -1213,6 +1217,9 @@ p.desc {
     right: 13%;
     transform: rotateZ(44deg);
   }
+  .ts-2 {
+    right: 18% !important;
+  }
 }
 @media (max-width: 590px) {
   .team-social {
@@ -1227,6 +1234,9 @@ p.desc {
 @media (max-width: 510px) {
   .team-social {
     right: 6%;
+  }
+  .ts-2 {
+    right: 12% !important;
   }
 }
 @media (max-width: 460px) {
@@ -1246,6 +1256,9 @@ p.desc {
 @media (max-width: 362px) {
   .team-social {
     right: -3%;
+  }
+  .ts-2 {
+    right: 7% !important;
   }
 }
 @media (max-width: 321px) {
