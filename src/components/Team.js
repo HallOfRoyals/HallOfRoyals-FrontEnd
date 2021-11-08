@@ -45,7 +45,7 @@ export default function RoadMap() {
               </div>
             </div>
             <div className="text-center team-desc">
-              <h3>Man from Ado</h3>
+              <h3>Man from Ado <img onClick={toggleSocial} src={socialAnchor} alt="" /></h3>
               <span>Product Manager</span>
             </div>
           </Col>
@@ -57,7 +57,7 @@ export default function RoadMap() {
               </div>
             </div>
             <div className="text-center team-desc">
-              <h3>The Surrealist</h3>
+              <h3>The Surrealist <img onClick={toggleSocial} src={socialAnchor} alt="" /></h3>
               <span>Product Designer</span>
             </div>
           </Col>
