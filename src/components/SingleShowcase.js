@@ -19,7 +19,7 @@ export default function SingleShowCase(props) {
         show={show}
         placement='bottom'
         overlay={
-          <Popover id={`popover-positioned-${props.key}`}>
+          <Popover id={`popover-positioned-${props.index}`}>
             <Popover.Body>
               {props.showcase.story}
             </Popover.Body>

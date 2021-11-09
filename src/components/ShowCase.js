@@ -22,7 +22,7 @@ export default function ShowCase() {
     <div className="container">
       <div className="row align-items-center text-center case">
         {showcases.map((showcase, index) => (
-          <ShowCaseSlider key={index} showcase={showcase} />
+          <ShowCaseSlider key={index} index={index} showcase={showcase} />
         ))}
       </div>
     </div>
