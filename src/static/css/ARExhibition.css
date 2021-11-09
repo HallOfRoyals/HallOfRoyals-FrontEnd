@@ -23,13 +23,13 @@
 }
 .xniR-wrapper h2:after {
   position: absolute;
-  bottom: -67px;
+  bottom: -27px;
   left: 45%;
   content: "";
-  height: 80px;
+  height: 20px;
   width: 100px;
   background-image: url(../images/ellipses.svg);
-  background-size: 100% 100%;
+  background-size: 80% 100%;
   background-repeat: no-repeat;
 }
 .xniR-wrapper p {
@@ -38,10 +38,14 @@
   letter-spacing: 0;
 }
 .xniR-wrapper p.info {
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Josefin Slab", sans-serif;
-  font-size: 20px;
+  font-size: 21px;
+  line-height: 32px;
   margin-bottom: 50px;
+}
+.xniR-wrapper p.info.primary {
+  color: #ffc477;
 }
 .xniR-wrapper p.notice {
   font-size: 19px;
@@ -52,8 +56,9 @@
   margin-bottom: 40px;
 }
 .xniR-card {
-  background: #fff7ec 0% 0% no-repeat padding-box;
+  background: transparent;
   box-shadow: 0px 0px 10px #ffc47780;
+  border: 1px solid #ffc477;
   position: relative;
   z-index: 1;
   border-radius: 20px;
@@ -66,14 +71,15 @@
 .xniR-card p {
   text-align: center;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 22px;
+  line-height: 37px;
   font-family: "Josefin Slab", sans-serif;
   letter-spacing: 0px;
-  color: #1c160f;
+  color: #ffc477;
 }
 .community-knlD-wrapper {
   width: 100%;
-  height: 400px;
+  height: auto;
 }
 .community-knlD-wrapper .iyuNvH {
   height: 100%;
@@ -88,15 +94,28 @@
   height: 100%;
   border-radius: 15px;
 }
+.community-knlD.kdlY {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 990px) {
+  .community-knlD.kdlY {
+    width: 88.33333333%;
+  }
+}
 .community-knlD .profile img {
   width: 220px;
   max-width: 100%;
   height: auto;
 }
+.community-knlD.kdlY .profile img {
+  width: 100px;
+}
 .community-knlD .profile h4 {
   text-align: center;
   font-family: "Gentium Basic", serif;
-  font-size: 20px;
+  font-style: italic;
+  font-size: 18px;
   line-height: 29px;
   letter-spacing: 0px;
   color: #1c160f;
@@ -107,8 +126,19 @@
   height: 24px;
 }
 .community-knlD .details-section {
-  padding-left: 35px;
+  margin-top: 25px;
   white-space: normal !important;
+}
+.community-knlD.kdlY .details-section {
+  margin-top: 0;
+}
+.community-knlD .details-section .menu {
+  width: 7px;
+  height: 24px;
+}
+.community-knlD .details-section .full-img {
+  width: 100%;
+  height: 360px;
 }
 .community-knlD .details-section h3 {
   text-align: left;
@@ -147,36 +177,37 @@
   width: 100%;
   max-width: 300px;
 }
-@media (max-width: 1289px) {
-  .community-knlD-wrapper {
-    height: 470px;
-  }
-}
 @media (max-width: 990px) {
-  .community-knlD-wrapper {
-    height: auto;
-  }
   .community-knlD .details-section {
-  padding-left: 35px;
-  white-space: normal !important;
-}
+    white-space: normal !important;
+  }
   .community-knlD {
     display: block !important;
     padding: 25px;
   }
-  .community-knlD .details-section {
-    display: block !important;
-    width: 100% !important;
-    margin-top: 25px;
-    padding: 0 !important;
-  }
-  .community-knlD .profile {
-    display: block !important;
-    width: 100% !important;
+  .community-knlD.kdlY {
+    display: flex !important;
   }
   .community-knlD .profile img {
-  width: 170px;
+    width: 170px;
+  }
 }
+@media (max-width: 770px) {
+.community-knlD.kdlY .details-section {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 574px) {
+  .community-knlD.kdlY .details-section {
+    padding-left: 0px;
+  }
+  .community-knlD.kdlY .details-section {
+    margin-top: 25px;
+  }
+  .community-knlD, .community-knlD.kdlY {
+    display: block !important;
+    padding: 25px;
+  }
 }
 @media (max-width: 998px) {
   .xniR-wrapper h2:after {
