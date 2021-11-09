@@ -1,27 +1,40 @@
-.case {
-  margin: 15px;
+.case img {
   width: 100%;
-  height: 100%;
-  max-height: 480px;
-  vertical-align: top;
-  backface-visibility: hidden;
+  max-width: 500px;
+  height: auto;
 }
-
-.showcase .slick-dots {
-  bottom: -30px;
+.case h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #1c160f;
 }
-.showcase .slick-dots li button:before {
-  font-size: 17px;
+.case h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Gentium Basic", serif;
+  letter-spacing: 0px;
+  color: #483e32;
+}
+.case .btn {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Josefin Sans", sans-serif;
+  background: transparent;
+  letter-spacing: 0px;
   color: #a58459;
+  border: none;
+  padding: 3px;
 }
-.showcase .slick-dots li.slick-active button:before {
-  color: #a58459;
-}
-@media (max-width: 767px) {
-  .showcase .slick-dots {
-  bottom: -40px;
-}
-  .showcase .slick-dots li button:before {
-  font-size: 13px;
-}
+.case .btn:hover, .case .btn:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
 }

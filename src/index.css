@@ -267,6 +267,9 @@ p {
 .mb-5 {
   margin-bottom: 5px;
 }
+.--mb-5 {
+  margin-bottom: 5px;
+}
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -1360,4 +1363,42 @@ p.desc {
   .magic-mt-30 {
     margin-top: 30px;
   }
+}
+.popover {
+  background-color: #ffc477;
+  border-radius: 6px;
+  max-width: 350px;
+  border-color: transparent;
+}
+@media (min-width: 768px) {
+  .popover {
+    max-width: 510px;
+  }
+}
+.popover-body p {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Josefin Slab", sans-serif;
+}
+.popover-body p + p {
+  margin-top: 15px;
+}
+.bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow::before,
+.bs-popover-bottom > .popover-arrow::before {
+  border-bottom-color: rgba(39, 38, 37, 0.25);
+}
+.bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow::after,
+.bs-popover-bottom > .popover-arrow::after {
+  border-bottom-color: #ffc477;
+}
+.--close-dialog {
+  margin: 0px 10px 10px;
+}
+.--close-dialog .btn {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
 }
