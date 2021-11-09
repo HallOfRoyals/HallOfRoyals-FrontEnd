@@ -9,13 +9,13 @@ export default function ShowCase() {
       image: pic1,
       title: 'Ancient Royals',
       helper: 'The First Dynasties',
-      story: <div><p>Adorned with ancient ornaments these Royals look stunning</p> <p>They are built from materials known from the the 16th century upwards</p></div>,
+      story: <div><p>Adorned with ancient ornaments these Royals look stunning</p> <p>They go with the artistic style and accessories of the 16th and 17th century, evoking a feeling of nostalgia atuned to their time</p></div>,
     },
     {
       image: pic2,
       title: 'Meta Royals',
       helper: 'Modern Dynasties',
-      story: <div><p>Stunning just like their ancestors these Meta Royals throw in a touch of modern artistic style, using accessories from the Metaverse world</p></div>,
+      story: <div><p>Stunning just like their ancestors these Meta Royals throw in a touch of modern artistic style, decked with accessories from the Metaverse world</p><p>Their fusion of ancient and modern culture & ideas, bridge the gap between a modern world and a caving past</p></div>,
     }
   ];
   return (<section className="showcase pb-50">
