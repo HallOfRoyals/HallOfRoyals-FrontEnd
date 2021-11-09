@@ -7,9 +7,7 @@
   margin-bottom: 35px;
 }
 .xniR-wrapper {
-  background: #a58459
-    radial-gradient(closest-side at 50% 50%, #a58459 0%, #110d09 100%) 0% 0%
-    no-repeat padding-box;
+  background: #a58459 radial-gradient(closest-side at 50% 50%, #53422D 0%, #110D09 100%) 0% 0% no-repeat padding-box;
 }
 .xniR-wrapper h2 {
   text-align: center;

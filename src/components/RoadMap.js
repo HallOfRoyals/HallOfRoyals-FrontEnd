@@ -34,7 +34,7 @@ export default function RoadMap() {
         <div className="text-center wave-vnxD">
           <h2>3rd Wave</h2>
           <p className="desc mb-25 text-center">2nd quarter 2022</p>
-          <p className="desc-title mb-20">Integration of the NFT community commence; sign in with other NFTs apart from Royals e.g "Sign in with Crypto Punks", Sign in with Degenrate Apes", " Sign in with BAYC"</p>
+          <p className="desc-title mb-20">Integration of the NFT community commences; sign in with other NFTs apart from Royals e.g "Sign in with Crypto Punks", Sign in with Degenrate Apes", " Sign in with BAYC"</p>
         </div>
         <div>
           <p className="desc mb-1 mt-25">NOTE: Honorary casts will be offered for free to the individual sculpted and will not be sold to anyone else.</p>

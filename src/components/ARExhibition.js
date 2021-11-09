@@ -208,7 +208,7 @@ export default class AREXhibition extends React.Component {
               <SectionTitle isAlt={true} title="Royal Commission" />
             </div>
             <p className="mb-30" style={{ marginTop: -60 }}>
-              For every tip on the Hall Of Royals Social there is a 10% commission.
+              For every tip in the Hall Of Royals Social there is a 10% commission.
             </p>
             <p>20% of revenue generated from the commissions will be distributed to the holders of Hall Of Royals NFT in perpetuity</p>
           </div>
