@@ -49,8 +49,8 @@ export default class AREXhibition extends React.Component {
             <h2>Story & Utility</h2>
           </div>
           <p className="notice">A collection of 13,500 unique "Royals" to immortalize the present day Kings and Queens - forever on the blockchain</p>
-          <p className="info primary">Hall of Royals was inspired by the "bronze heads" of the Ancient Benin Kingdom. These Bronze Heads were used in ancient times to honor Kings and Queens of the Benin Kingdom.</p>
-          <p className="info primary">The Bronze Heads have a rich history of culture and conquest with most of them now sitting in museums across Europe.</p>
+          <p className="info primary">Hall of Royals was inspired by the "bronze heads" of the Ancient Benin Kingdom. Cast around the 16th & 17th Century, these bronze heads were cast in honor of Kings & Queens</p>
+          <p className="info primary">The Bronze Heads have a rich history of culture and conquest with most of them now on display in museums across Europe, far away from home.</p>
           <p className="info primary">However, via this project the Bronze Heads will find fresh meaning, a new expression and fusion with modern culture - a bridge between the ancient and the new.</p>
           <p className="info primary">So, leveraging the power of 3D technology and Web 3.0, Hall Of Royals will be used to not just honor and immortalize ourselves but also to give expression and recognition to ideas, projects and all else that we hold dear.</p>
           <div className="text-center mb-60">
