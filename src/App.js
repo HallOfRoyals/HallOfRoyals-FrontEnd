@@ -11,6 +11,7 @@ function App() {
       <Header />
       <div class="container">
         <ActionTray />
+        <ShowCase />
       </div>
       {/* <ShowCase/>
       <ARExhibition/>

@@ -6,6 +6,10 @@
   text-decoration: none;
   padding: 15px
 }
+.-actiontray-actions:hover {
+  color: #fff;
+  background: rgba(160, 160, 160, 0.08);
+}
 .-actiontray-actions img {
   height: 34px;
   width: 34px;

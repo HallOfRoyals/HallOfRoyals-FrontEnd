@@ -1,30 +1,48 @@
-// import '../static/css/ShowCase.css';
-// import pic1 from '../static/images/showcase/1.png';
-// import pic2 from '../static/images/showcase/2.png';
-// import ShowCaseSlider from './SingleShowcase';
+import '../static/css/ShowCase.css';
+import pic1 from '../static/images/showcase/1.png';
+import pic2 from '../static/images/showcase/2.png';
+import pic3 from '../static/images/showcase/3.png';
+import pic4 from '../static/images/showcase/4.png';
+import logoIcon from '../static/images/logo-icon.png';
 
-// export default function ShowCase() {
-//   const showcases = [
-//     {
-//       image: pic1,
-//       title: 'Ancient Royals',
-//       helper: 'The First Dynasties',
-//       story: <div><p>Adorned with ancient ornaments these Royals look stunning</p> <p>They go with the artistic style and accessories of the 16th and 17th century, evoking a feeling of nostalgia atuned to their time</p></div>,
-//     },
-//     {
-//       image: pic2,
-//       title: 'Meta Royals',
-//       helper: 'Modern Dynasties',
-//       story: <div><p>Stunning just like their ancestors these Meta Royals throw in a touch of modern artistic style, decked with accessories from the Metaverse world</p><p>Their fusion of ancient and modern culture & ideas, bridge the gap between a modern world and a caving past</p></div>,
-//     }
-//   ];
-//   return (<section className="showcase pb-50">
-//     <div className="container">
-//       <div className="row align-items-center text-center case">
-//         {showcases.map((showcase, index) => (
-//           <ShowCaseSlider key={index} index={index} showcase={showcase} />
-//         ))}
-//       </div>
-//     </div>
-//   </section>);
-// }
+export default function ShowCase() {
+
+  return (
+    <section className="glassy-wrapper x-section mt-60">
+      <h1 className="section-title">Royals</h1>
+      <div className="row mt-20">
+        <div className="col-sm-6 col-md-3 showcase-x">
+          <img src={pic1} alt=""/>
+          <div className="d-flex mt-10 showcase-case">
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon" />
+            <h4>Ancient Royals</h4>
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon"/>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-3 showcase-x">
+          <img src={pic2} alt="" />
+          <div className="d-flex mt-10 showcase-case">
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon" />
+            <h4>Ancient Royals</h4>
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon"/>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-3 showcase-x">
+          <img src={pic3} alt="" />
+          <div className="d-flex mt-10 showcase-case">
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon" />
+            <h4>Ancient Royals</h4>
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon"/>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-3 showcase-x">
+          <img src={pic4} alt="" />
+          <div className="d-flex mt-10 showcase-case">
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon" />
+            <h4>Ancient Royals</h4>
+            <img src={logoIcon} alt="" className="showcase-case-item case-icon"/>
+          </div>
+        </div>
+      </div>
+    </section>);
+}
