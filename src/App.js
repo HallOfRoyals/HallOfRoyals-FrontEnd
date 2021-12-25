@@ -17,6 +17,7 @@ function App() {
         <ShowCase />
         <Story />
         <img src={shapeFifteen} alt="" className="shape-15"/>
+        <RoadMap />
       </div>
       {/* <div className="footer">
         Smart contract address: Contract coming soon...

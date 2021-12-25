@@ -78,10 +78,10 @@ ol {
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
-  color: #747e88;
+  line-height: 22px;
+  color: #fff;
   margin: 0px;
 }
 .text-right {
@@ -1469,6 +1469,19 @@ p.desc {
   height: 1500px;
   z-index: -1;
 }
+.shape-16 {
+  position: absolute;
+  top: 0;
+  right: 7%;
+  height: 1200px;
+  z-index: -1;
+}
+@media (max-width: 575px) {
+  .shape-16 {
+    top: -100px;
+    right: -29%;
+  }
+}
 .glassy-wrapper {
   background: rgba(196, 196, 196, 0.05);
   border: 0.5px solid rgba(196, 196, 196, 0.12);
@@ -1516,4 +1529,22 @@ p.desc {
   .story-section .x-nfts img {
     margin-bottom: 10px;
   }
+}
+.roadmap-art {
+  width: 390px;
+  height: auto;
+  max-width: 90%;
+  padding: 15px;
+}
+.relative-height-box {
+  height: fit-content;
+}
+ul.roadmap-ul {
+  list-style: disc;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+ul.roadmap-ul li + li {
+  margin-top: 15px;
 }
