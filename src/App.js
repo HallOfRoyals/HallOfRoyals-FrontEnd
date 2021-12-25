@@ -18,6 +18,7 @@ function App() {
         <Story />
         <img src={shapeFifteen} alt="" className="shape-15"/>
         <RoadMap />
+        <Team />
       </div>
       {/* <div className="footer">
         Smart contract address: Contract coming soon...

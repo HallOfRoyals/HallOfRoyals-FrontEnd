@@ -1,118 +1,98 @@
-// import React, { useState } from 'react';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import teamOne from '../static/images/team/1.png';
+import teamTwo from '../static/images/team/2.png';
+import teamThree from '../static/images/team/3.png';
+import teamFour from '../static/images/team/4.png';
+import teamFive from '../static/images/team/5.png';
+import teamSix from '../static/images/team/6.png';
+import klynoxIcon from '../static/images/klynox-icon.png';
+import shapeSeventeen from '../static/images/shape-17.png';
 
-// import SectionTitle from './SectionTitle';
-// import teamMember1 from '../static/images/team/1.png';
-// import teamMember2 from '../static/images/team/2.png';
-// import teamMember3 from '../static/images/team/3.png';
-// import teamMember4 from '../static/images/team/4.png';
-// import teamMember5 from '../static/images/team/5.png';
-// import teamMember6 from '../static/images/team/6.png';
-// import social1 from '../static/images/team/social1.png';
-// import social2 from '../static/images/team/social2.png';
-// import social3 from '../static/images/team/social3.png';
-// import social4 from '../static/images/team/social4.png';
-// import socialAnchor from '../static/images/team/social-anchor.png';
-
-// export default function RoadMap() {
-//   const [isShowingSocial, setShowSocial] = useState(false);
-//   const [isShowingSocial1, setShowSocial1] = useState(false);
-//   const [isShowingSocial2, setShowSocial2] = useState(false);
-
-//   const toggleSocial = () => {
-//     const isShowing = !isShowingSocial;
-//     setShowSocial(isShowing);
-//   }
-
-//   const toggleSocial1 = () => {
-//     const isShowing = !isShowingSocial1;
-//     setShowSocial1(isShowing);
-//   }
-
-//   const toggleSocial2 = () => {
-//     const isShowing = !isShowingSocial2;
-//     setShowSocial2(isShowing);
-//   }
-
-//   return (
-//     <section id="team" className="pb-120">
-//       <div className="container">
-//         <div className="d-flex justify-content-center pt-20">
-//           <SectionTitle title="Team" />
-//         </div>
-//       </div>
-//       <Container style={{ marginTop: -50 }}>
-//         <p className="desc-title">We are a technology company specialized in blockchain development, SaaS, AR & VR development, 3D design etc.</p>
-//         <p className="desc-title">We are a dedicated bunch and we're here to take you on a Great Sail</p>
-//       </Container>
-//       <Container className="d-flex flex-column justifly-content-center">
-//         <Row className="mt-35 align-items-center justify-content-around">
-//           <Col className="d-flex flex-column justify-content-center align-items-center" xs={6} md={4}>
-//             <div className="team-photo-wrapper">
-//               <img src={teamMember1} alt="" className="team-photo" />
-//               <div className={isShowingSocial1 ? 'd-flex flex-column team-social ts-2' : 'd-none'}>
-//                 <a target="_blank" rel="noreferrer" href="https://twitter.com/Adowei_George"><img src={social1} alt="social" /></a>
-//               </div>
-//             </div>
-//             <div className="text-center team-desc">
-//               <h3>Man from Ado <img onClick={toggleSocial1} src={socialAnchor} alt="" /></h3>
-//               <span>Product Manager</span>
-//             </div>
-//           </Col>
-//           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
-//             <div className="team-photo-wrapper">
-//               <img src={teamMember2} alt="" className="team-photo" />
-//             <div className={isShowingSocial2 ? 'd-flex flex-column team-social ts-2' : 'd-none'}>
-//                 <a target="_blank" rel="noreferrer" href="https://twitter.com/TheSurrealyst"><img src={social1} alt="social" /></a>
-//               </div>
-//             </div>
-//             <div className="text-center team-desc">
-//               <h3>The Surrealist <img onClick={toggleSocial2} src={socialAnchor} alt="" /></h3>
-//               <span>Product Designer</span>
-//             </div>
-//           </Col>
-//           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
-//             <div className="team-photo-wrapper">
-//               <img src={teamMember3} alt="" className="team-photo" />
-//               <div className={isShowingSocial ? 'd-flex flex-column team-social': 'd-none'}>
-//                 <a target="_blank" rel="noreferrer" href="https://youtube.com/channel/UCl2oOhWeblU-NQedxjdG6eQ"><img src={social4} alt="social" /></a>
-//                 <a target="_blank" rel="noreferrer" href="https://www.artstation.com/syndicatedart"><img src={social3} alt="social" /></a>
-//                 <a target="_blank" rel="noreferrer" href="https://www.instagram.com/syndicated_art"><img src={social2} alt="social" /></a>
-//                 <a target="_blank" rel="noreferrer" href="https://twitter.com/syndicated_art"><img src={social1} alt="social" /></a>
-//               </div>
-//             </div>
-//             <div className="text-center team-desc">
-//               <h3>Dwayne <img onClick={toggleSocial} src={socialAnchor} alt="" /></h3>
-//               <span>3D Artist</span>
-//             </div>
-//           </Col>
-//         </Row>
-//         <Row className="mt-30 align-items-center justify-content-around">
-//           <Col className="d-flex flex-column justify-content-center align-items-center" xs={6} md={4}>
-//             <img src={teamMember4} alt="" className="team-photo" />
-//             <div className="text-center team-desc">
-//               <h3>King of the Hives</h3>
-//               <span>Software Engineer</span>
-//             </div>
-//           </Col>
-//           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
-//             <img src={teamMember5} alt="" className="team-photo" />
-//             <div className="text-center team-desc">
-//               <h3>Hopkins</h3>
-//               <span>AR/VR/Software Developer</span>
-//             </div>
-//           </Col>
-//           <Col className="d-flex flex-column justify-content-center align-items-center magic-mt-30" xs={6} md={4}>
-//             <img src={teamMember6} alt="" className="team-photo" />
-//             <div className="text-center team-desc">
-//               <h3>Ancient Dreamer</h3>
-//               <span>3D/2D Artist</span>
-//             </div>
-//           </Col>
-//         </Row>
-//       </Container>
-//     </section>
-//   );
-// }
+export default function Team() {
+  return (
+    <section id="team" className="glassy-wrapper x-section mt-60">
+      <div className="container x-container position-relative">
+        <img src={shapeSeventeen} alt="" className="shape-17" />
+        <h1 className="section-title mb-25">Team</h1>
+        <div className="row">
+          <div className="col-sm-6 col-md-4">
+            <div className="glassy-wrapper text-center pt-10 pb-10 pl-10 pr-10">
+              <img src={teamOne} alt="" className="team-photo" />
+              <div className="team-desc mt-10">
+                Man from Ado
+              </div>
+              <div className="team-desc">
+                (Product Manager)
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4">
+            <div className="glassy-wrapper text-center pt-10 pb-10 pl-10 pr-10">
+              <img src={teamTwo} alt="" className="team-photo" />
+              <div className="team-desc mt-10">
+                The Surrealyst
+              </div>
+              <div className="team-desc">
+                (Product Designer)
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4">
+            <div className="glassy-wrapper text-center pt-10 pb-10 pl-10 pr-10">
+              <img src={teamThree} alt="" className="team-photo" />
+              <div className="team-desc mt-10">
+                Syndicated Art
+              </div>
+              <div className="team-desc">
+                (3D Artist)
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row mt-25">
+          <div className="col-sm-6 col-md-4">
+            <div className="glassy-wrapper text-center pt-10 pb-10 pl-10 pr-10">
+              <img src={teamFour} alt="" className="team-photo" />
+              <div className="team-desc mt-10">
+                King of the Hives
+              </div>
+              <div className="team-desc">
+                (Software Engineer)
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4">
+            <div className="glassy-wrapper text-center pt-10 pb-10 pl-10 pr-10">
+              <img src={teamFive} alt="" className="team-photo" />
+              <div className="team-desc mt-10">
+                Ancient Dreamer
+              </div>
+              <div className="team-desc">
+                (3D, 2D Artist)
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-md-4">
+            <div className="glassy-wrapper text-center pt-10 pb-10 pl-10 pr-10">
+              <img src={teamSix} alt="" className="team-photo" />
+              <div className="team-desc mt-10">
+                Hopkins
+              </div>
+              <div className="team-desc">
+                (AR/VR/Software Dev)
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="text-center mt-30">
+          Hall of Royals is a project by Klynox labs - a multinational tech company specialized in blockchain development, SaaS, AR and VR development, 3D design etc.
+        </p>
+        <div className="text-center mt-35">
+          <a href="/" className="team-action">
+            <span>Klynox.co</span>
+            <img src={klynoxIcon} alt=""/>
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
