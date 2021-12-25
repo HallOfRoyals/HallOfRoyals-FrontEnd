@@ -1,10 +1,11 @@
 import Header from './components/Header';
 import ActionTray from './components/ActionTray';
 import ShowCase from './components/ShowCase';
-import Distribution from './components/Distribution';
+import Story from './components/Story';
 import RoadMap from './components/RoadMap';
 import Team from './components/Team';
 import shapeFourteen from './static/images/shape-14.png';
+import shapeFifteen from './static/images/shape-15.png';
 
 function App() {
   return (
@@ -14,12 +15,9 @@ function App() {
         <ActionTray />
         <img src={shapeFourteen} alt="" className="shape-14"/>
         <ShowCase />
+        <Story />
+        <img src={shapeFifteen} alt="" className="shape-15"/>
       </div>
-      {/* <ShowCase/>
-      <ARExhibition/>
-      <Distribution/>
-      <RoadMap/>
-      <Team/> */}
       {/* <div className="footer">
         Smart contract address: Contract coming soon...
       </div> */}

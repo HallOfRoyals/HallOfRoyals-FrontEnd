@@ -23,7 +23,7 @@ export default function ShowCase() {
           <img src={pic2} alt="" />
           <div className="d-flex mt-10 showcase-case">
             <img src={logoIcon} alt="" className="showcase-case-item case-icon" />
-            <h4>Ancient Royals</h4>
+            <h4>Meta Royals</h4>
             <img src={logoIcon} alt="" className="showcase-case-item case-icon"/>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function ShowCase() {
           <img src={pic3} alt="" />
           <div className="d-flex mt-10 showcase-case">
             <img src={logoIcon} alt="" className="showcase-case-item case-icon" />
-            <h4>Ancient Royals</h4>
+            <h4>Legendary Royals</h4>
             <img src={logoIcon} alt="" className="showcase-case-item case-icon"/>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function ShowCase() {
           <img src={pic4} alt="" />
           <div className="d-flex mt-10 showcase-case">
             <img src={logoIcon} alt="" className="showcase-case-item case-icon" />
-            <h4>Ancient Royals</h4>
+            <h4>Honorary Royals</h4>
             <img src={logoIcon} alt="" className="showcase-case-item case-icon"/>
           </div>
         </div>

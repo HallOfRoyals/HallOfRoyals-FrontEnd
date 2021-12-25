@@ -1462,6 +1462,13 @@ p.desc {
     top: 17%;
   }
 }
+.shape-15 {
+  position: absolute;
+  top: 69%;
+  right: 0;
+  height: 1500px;
+  z-index: -1;
+}
 .glassy-wrapper {
   background: rgba(196, 196, 196, 0.05);
   border: 0.5px solid rgba(196, 196, 196, 0.12);
@@ -1470,4 +1477,43 @@ p.desc {
 .x-section {
   min-height: 100px;
   padding: 30px;
+}
+.story-section p {
+  margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.story-section img {
+  width: 560px;
+  max-width: 92%;
+}
+.story-section .headline {
+  height: 17px;
+  width: 120px;
+}
+.story-section .x-nfts {
+  min-height: 150px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+.story-section .x-nfts h4 {
+  font-size: 19px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.story-section .x-nfts img {
+  width: 200px;
+  max-width: 90%;
+  margin-right: 15px;
+}
+@media (max-width: 575px) {
+  .story-section .x-nfts {
+    padding: 15px;
+  }
+  .story-section .x-nfts img {
+    margin-bottom: 10px;
+  }
 }
