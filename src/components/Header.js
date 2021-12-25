@@ -1,74 +1,61 @@
-import socialIconOne from '../static/images/social-icon1.svg';
-import socialIconTwo from '../static/images/social-icon2.svg';
 import logo from '../static/images/logo.png';
-import Accordion from 'react-bootstrap/Accordion';
-import { Link } from 'react-scroll';
-import NavToggler from './NavToggle';
+import socialOne from '../static/images/social-1.png';
+import socialTwo from '../static/images/social-2.png';
+import socialThree from '../static/images/social-3.png';
+import shapeOne from '../static/images/shape-1.png';
+import shapeTwo from '../static/images/shape-2.png';
+import shapeThree from '../static/images/shape-3.png';
+import shapeFour from '../static/images/shape-4.png';
+import shapeFive from '../static/images/shape-5.png';
+import shapeSix from '../static/images/shape-6.png';
+import shapeSeven from '../static/images/shape-7.png';
+import shapeEight from '../static/images/shape-8.png';
+import shapeNine from '../static/images/shape-9.png';
+import shapeTen from '../static/images/shape-10.png';
+import shapeEleven from '../static/images/shape-11.png';
+import shapeTwelve from '../static/images/shape-12.png';
+import shapeThirteen from '../static/images/shape-13.png';
 import '../static/css/Header.css';
 
 export default function Header() {
   return (
-    <header className="header-area">
+    <header id="home" className="header-area">
       <div className="navbar-area">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <Accordion defaultActiveKey="1">
-                <nav className="navbar navbar-expand-lg">
-                  <div></div>
-                  <NavToggler eventKey="0" />
-
-                  <Accordion.Collapse className="navbar-collapse hide sub-menu-bar" eventKey="0">
-                    <ul id="nav" className="navbar-nav ms-sm-auto">
-                      <li className="nav-item">
-                        <Link to="story" spy={true} smooth={true}>HOR</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="home" spy={true} smooth={true}>Mint</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="roadmap" spy={true} smooth={true}>Roadmap</Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link to="team" spy={true} smooth={true}>Team</Link>
-                      </li>
-                    </ul>
-                  </Accordion.Collapse>
-                </nav>
-              </Accordion>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="home" className="header-hero bg_cover">
-        <div className="bg-film"></div>
-        <div className="container">
-          <div className="d-flex flex-column justify-content-center text-center header-hero-content">
-            <div className="d-flex justify-content-center text-center logo">
-              <img src={logo} alt="" />
-            </div>
-            <h3 className="header-title">Hall Of Royals</h3>
-            <h5 className="header-title-helper">(A Royal Hall Of Fame)</h5>
-            <div className="d-flex justify-content-center mt-40">
-              <p className="text">Inspired by the "Bronze Heads" of the<br/>ancient Benin Kingdom which were cast<br/>in honor of Kings and Queens</p>
-            </div>
-            <ul className="social-icons">
-              <li>
-                <a target="_blank" rel="noreferrer" href="https://discord.gg/R8PQbnGZH2">
-                <img src={socialIconOne} alt="Discord" />
-              </a></li>
-              <li><a target="_blank" rel="noreferrer" href="https://twitter.com/HallofRoyals?s=09">
-                <img src={socialIconTwo} alt="Twitter" />
-              </a></li>
-              {/* <li><a href="https://www.youtube.com/watch?v=QqpIbRzfPNc">
-                <img src={socialIconThree} alt="Opensea" />
-              </a></li> */}
+          <div className="d-flex justify-content-between justify-content-md-start">
+            <img src={logo} alt="HOR" className="logo" />
+            <ul className="ml-md-200 nav-anchors">
+              <li className="d-inline-block"><a href="/" className="action">Connect Wallet</a></li>
+              <li className="d-none d-md-inline-block"><a href="/"><img src={socialOne} alt="" /></a></li>
+              <li className="d-none d-md-inline-block"><a href="/"><img src={socialTwo} alt="" /></a></li>
+              <li className="d-none d-md-inline-block"><a href="/"><img src={socialThree} alt="" /></a></li>
             </ul>
           </div>
         </div>
-
       </div>
+
+      <div className="container header-hero-content">
+        <div className="d-flex">
+          <div className="col-md-9">
+            <h1>Hall Of Royals</h1>
+            <p>Inspired by the Bronze heads of the ancient Benin Kingdom
+              which were cast in honor of Kings and Queens</p>
+          </div>
+        </div>
+      </div>
+      <img src={shapeOne} alt="shape-1" class="shape-1"/>
+      <img src={shapeTwo} alt="shape-2" class="shape-2"/>
+      <img src={shapeThree} alt="shape-3" class="shape-3"/>
+      <img src={shapeFour} alt="shape-4" class="shape-4"/>
+      <img src={shapeFive} alt="shape-5" class="shape-5"/>
+      <img src={shapeSix} alt="shape-6" class="shape-6"/>
+      <img src={shapeSeven} alt="shape-7" class="shape-7"/>
+      <img src={shapeEight} alt="shape-8" class="shape-8"/>
+      <img src={shapeNine} alt="shape-9" class="shape-9"/>
+      <img src={shapeTen} alt="shape-10" class="shape-10"/>
+      <img src={shapeEleven} alt="shape-11" class="shape-11"/>
+      <img src={shapeTwelve} alt="shape-12" class="shape-12"/>
+      <img src={shapeThirteen} alt="shape-13" class="shape-13"/>
     </header>
   );
 }

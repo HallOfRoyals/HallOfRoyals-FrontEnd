@@ -1,6 +1,6 @@
 import Header from './components/Header';
+import ActionTray from './components/ActionTray';
 import ShowCase from './components/ShowCase';
-import ARExhibition from './components/ARExhibition';
 import Distribution from './components/Distribution';
 import RoadMap from './components/RoadMap';
 import Team from './components/Team';
@@ -8,15 +8,18 @@ import Team from './components/Team';
 function App() {
   return (
     <div>
-      <Header/>
-      <ShowCase/>
+      <Header />
+      <div class="container">
+        <ActionTray />
+      </div>
+      {/* <ShowCase/>
       <ARExhibition/>
       <Distribution/>
       <RoadMap/>
-      <Team/>
-      <div className="footer">
+      <Team/> */}
+      {/* <div className="footer">
         Smart contract address: Contract coming soon...
-      </div>
+      </div> */}
     </div>
   );
 }
