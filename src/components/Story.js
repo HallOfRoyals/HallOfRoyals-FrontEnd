@@ -42,7 +42,7 @@ export default function Story() {
         <div className="glassy-wrapper mt-40 d-flex flex-column flex-sm-row align-items-center align-items-sm-stretch x-nfts">
           <img src={nftOne} alt="" />
           <div className="pt-15 pb-15">
-            <h4 class="mb-10">Ancient Royals</h4>
+            <h4 className="mb-10">Ancient Royals</h4>
             <p>These are sculpts that are decked with traditional Benin Bronze Head ornaments, head wears, neck wears and tribal marks.</p>
             <p>They depict the Bronze Heads in their real life forms in varying material textures. No additional ornaments are added</p>
           </div>
@@ -50,7 +50,7 @@ export default function Story() {
         <div className="glassy-wrapper mt-40 d-flex flex-column flex-sm-row align-items-center align-items-sm-stretch x-nfts">
           <img src={nftTwo} alt="" />
           <div className="pt-15 pb-15">
-            <h4 class="mb-10">Meta Royals</h4>
+            <h4 className="mb-10">Meta Royals</h4>
             <p>These sculpts are also decked in the traditional Benin Bronze Head regalia + modern accessories especially those associated with the metaverse like 3D glasses, pipes and piercings</p>
             <p>These sculpts combines this ancient art form with modern accessories, ideas & culture</p>
           </div>
@@ -58,7 +58,7 @@ export default function Story() {
         <div className="glassy-wrapper mt-40 d-flex flex-column flex-sm-row align-items-center align-items-sm-stretch x-nfts">
           <img src={nftThree} alt="" />
           <div className="pt-15 pb-15">
-            <h4 class="mb-10">Legendary Royals</h4>
+            <h4 className="mb-10">Legendary Royals</h4>
             <p>These sculpts are done in honor of people who had an impact on the world, their society or community during their lifetime.</p>
             <p>They are meant to honor these Legends by adorning them in the regalia of the Benin Bronze Heads</p>
             <p>Also, we hope that through this we can bring global recogition to the Benin Bronze Heads</p>
@@ -68,7 +68,7 @@ export default function Story() {
         <div className="glassy-wrapper mt-40 d-flex flex-column flex-sm-row align-items-center align-items-sm-stretch x-nfts">
           <img src={nftFour} alt="" />
           <div className="pt-15 pb-15">
-            <h4 class="mb-10">Honorary Royals</h4>
+            <h4 className="mb-10">Honorary Royals</h4>
             <p>Honorary sculpts are done to honor and recognise the high achievers of our present day world - celebrities, content creators, writers, activists, etc.</p>
             <p>Women & men who are making a difference in their various fields - music, academia, science, technology, DeFi, etc.</p>
             <p>These will not be for sale but offered for free to the individuals sculpted</p>

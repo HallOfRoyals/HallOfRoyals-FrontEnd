@@ -43,19 +43,19 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <img src={shapeOne} alt="shape-1" class="shape-1"/>
-      <img src={shapeTwo} alt="shape-2" class="shape-2"/>
-      <img src={shapeThree} alt="shape-3" class="shape-3"/>
-      <img src={shapeFour} alt="shape-4" class="shape-4"/>
-      <img src={shapeFive} alt="shape-5" class="shape-5"/>
-      <img src={shapeSix} alt="shape-6" class="shape-6"/>
-      <img src={shapeSeven} alt="shape-7" class="shape-7"/>
-      <img src={shapeEight} alt="shape-8" class="shape-8"/>
-      <img src={shapeNine} alt="shape-9" class="shape-9"/>
-      <img src={shapeTen} alt="shape-10" class="shape-10"/>
-      <img src={shapeEleven} alt="shape-11" class="shape-11"/>
-      <img src={shapeTwelve} alt="shape-12" class="shape-12"/>
-      <img src={shapeThirteen} alt="shape-13" class="shape-13"/>
+      <img src={shapeOne} alt="shape-1" className="shape-1"/>
+      <img src={shapeTwo} alt="shape-2" className="shape-2"/>
+      <img src={shapeThree} alt="shape-3" className="shape-3"/>
+      <img src={shapeFour} alt="shape-4" className="shape-4"/>
+      <img src={shapeFive} alt="shape-5" className="shape-5"/>
+      <img src={shapeSix} alt="shape-6" className="shape-6"/>
+      <img src={shapeSeven} alt="shape-7" className="shape-7"/>
+      <img src={shapeEight} alt="shape-8" className="shape-8"/>
+      <img src={shapeNine} alt="shape-9" className="shape-9"/>
+      <img src={shapeTen} alt="shape-10" className="shape-10"/>
+      <img src={shapeEleven} alt="shape-11" className="shape-11"/>
+      <img src={shapeTwelve} alt="shape-12" className="shape-12"/>
+      <img src={shapeThirteen} alt="shape-13" className="shape-13"/>
     </header>
   );
 }
