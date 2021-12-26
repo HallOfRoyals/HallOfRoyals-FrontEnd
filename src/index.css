@@ -1387,6 +1387,7 @@ ul.roadmap-ul {
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
+  margin-left: 18px;
 }
 ul.roadmap-ul li + li {
   margin-top: 15px;
