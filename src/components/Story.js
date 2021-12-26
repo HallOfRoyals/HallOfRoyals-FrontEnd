@@ -7,7 +7,7 @@ import nftFour from '../static/images/nfts/4.png';
 
 export default function Story() {
   return (
-    <section className="glassy-wrapper x-section mt-60 text-center story-section">
+    <section id="story" className="glassy-wrapper x-section mt-60 text-center story-section">
       <div className="container">
         <h1 className="section-title mb-20">Story</h1>
         <p>

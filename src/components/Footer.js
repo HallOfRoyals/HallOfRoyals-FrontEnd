@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import '../static/css/ShowCase.css';
 import logoIcon from '../static/images/logo-icon.png';
 import shapeEighteen from '../static/images/shape-18.png';
@@ -18,16 +19,16 @@ export default function Footer() {
                 <a href="/">OpenSea</a>
               </li>
               <li>
-                <a href="/">Mint</a>
+                <Link to="mint" spy={true} smooth={true}>Mint</Link>
               </li>
               <li>
-                <a href="/">Story</a>
+                <Link to="story" spy={true} smooth={true}>Story</Link>
               </li>
               <li>
-                <a href="/">Roadmap</a>
+                <Link to="roadmap" spy={true} smooth={true}>Roadmap</Link>
               </li>
               <li>
-                <a href="/">Team</a>
+                <Link to="team" spy={true} smooth={true}>Team</Link>
               </li>
             </ul>
           </div>

@@ -1434,7 +1434,7 @@ ul.roadmap-ul li + li {
   margin-top: 10px;
 }
 .footer-nav ul > li a {
-  color: #fff;
+  color: #fff !important;
   font-size: 14px;
   line-height: 20px;
   text-decoration: none;

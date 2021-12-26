@@ -4,7 +4,7 @@ import crownIcon from '../static/images/crown-icon.png';
 
 export default function ActionTray() {
   return (
-    <section className="glassy-wrapper x-section mt-120">
+    <section id="mint" className="glassy-wrapper x-section mt-120">
       <h1 className="section-title">Get a Royal</h1>
       <div className="row mt-20">
         <div className="col-6">
