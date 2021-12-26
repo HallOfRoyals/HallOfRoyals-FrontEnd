@@ -1,5 +1,4 @@
 import beninHead from '../static/images/benin-head.png';
-import newYorkTimes from '../static/images/ny-times.png';
 import nftOne from '../static/images/nfts/1.png';
 import nftTwo from '../static/images/nfts/2.png';
 import nftThree from '../static/images/nfts/3.png';
