@@ -1458,3 +1458,10 @@ footer .copyright {
   font-size: 11px;
   text-align: center;
 }
+.news-link {
+  padding: 5px;
+  color: #ffff00;
+}
+.news-link:hover {
+  color: #dada24;
+}

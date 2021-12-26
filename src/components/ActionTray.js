@@ -8,7 +8,7 @@ export default function ActionTray() {
       <h1 className="section-title">Get a Royal</h1>
       <div className="row mt-20">
         <div className="col-6">
-          <a href="/" className="pl-5 pr-5 glassy-wrapper -actiontray-actions text-center d-flex justify-content-center align-items-center">
+          <a href="https://opensea.io/collection/hallofroyals" target="_blank" rel="noreferrer" className="pl-5 pr-5 glassy-wrapper -actiontray-actions text-center d-flex justify-content-center align-items-center">
             <span>Buy on OpenSea</span>
             <img src={openseaIcon} alt="opensea"/>
           </a>

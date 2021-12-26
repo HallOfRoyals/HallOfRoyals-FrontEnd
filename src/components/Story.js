@@ -28,7 +28,7 @@ export default function Story() {
         <div className="d-flex justify-content-center mt-35">
           <img src={beninHead} alt="benin bronze head" />
         </div>
-        <p className="mt-20">This Benin Bronze sold to a private collector for a record fee of £10m - <a href="/"><img src={newYorkTimes} alt="New York Times" className="headline" /></a></p>
+        <p className="mt-20">This Benin Bronze sold to a private collector for a record fee of £10m - <a href="https://www.bbc.com/news/world-africa-56292809" class="news-link" target="_blank" rel="noreferrer">BBC</a></p>
         <h1 className="section-title mt-35 mb-20">Hall Of Royals NFT</h1>
         <p>
           Inspired by the ancient Benin Bronze Heads, Hall of Royals is a project to give a new expression and bring to limelight this ancient art form - using them to honor and immortalize people, ideas and cultures around the world.

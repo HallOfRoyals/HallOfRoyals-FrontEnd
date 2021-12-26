@@ -16,7 +16,7 @@ export default function Footer() {
             <h2>Project</h2>
             <ul>
               <li>
-                <a href="/">OpenSea</a>
+                <a href="https://opensea.io/collection/hallofroyals" target="_blank" rel="noreferrer">OpenSea</a>
               </li>
               <li>
                 <Link to="mint" spy={true} smooth={true}>Mint</Link>
@@ -36,16 +36,16 @@ export default function Footer() {
             <h2>Socials</h2>
             <ul>
               <li>
-                <a href="/">Discord</a>
+                <a href="https://discord.gg/R8PQbnGZH2" target="_blank" rel="noreferrer">Discord</a>
               </li>
               <li>
-                <a href="/">Twitter</a>
+                <a href="https://twitter.com/HallofRoyals?s=09" target="_blank" rel="noreferrer">Twitter</a>
               </li>
               <li>
-                <a href="/">Instagram</a>
+                <a href="https://instagram.com/hall_of_royals?utm_medium=copy_link" target="_blank" rel="noreferrer">Instagram</a>
               </li>
               <li>
-                <a href="/">Facebook</a>
+                <a href="//" target="_blank" rel="noreferrer">Facebook</a>
               </li>
             </ul>
           </div>

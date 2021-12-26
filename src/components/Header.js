@@ -26,9 +26,9 @@ export default function Header() {
             <img src={logo} alt="HOR" className="logo" />
             <ul className="ml-md-200 nav-anchors">
               <li className="d-inline-block"><a href="/" className="action">Connect Wallet</a></li>
-              <li className="d-none d-md-inline-block"><a href="/"><img src={socialOne} alt="" /></a></li>
-              <li className="d-none d-md-inline-block"><a href="/"><img src={socialTwo} alt="" /></a></li>
-              <li className="d-none d-md-inline-block"><a href="/"><img src={socialThree} alt="" /></a></li>
+              <li className="d-none d-md-inline-block"><a href="https://twitter.com/HallofRoyals?s=09" target="_blank" rel="noreferrer"><img src={socialOne} alt="" /></a></li>
+              <li className="d-none d-md-inline-block"><a href="https://discord.gg/R8PQbnGZH2" target="_blank" rel="noreferrer"><img src={socialTwo} alt="" /></a></li>
+              <li className="d-none d-md-inline-block"><a href="https://opensea.io/collection/hallofroyals" target="_blank" rel="noreferrer"><img src={socialThree} alt="" /></a></li>
             </ul>
           </div>
         </div>
