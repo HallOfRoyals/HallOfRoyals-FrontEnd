@@ -10,7 +10,7 @@ import shapeFifteen from './static/images/shape-15.png';
 
 function App() {
   return (
-    <div className="position-relative">
+    <div className="position-relative hide-side">
       <Header />
       <div className="container">
         <ActionTray />

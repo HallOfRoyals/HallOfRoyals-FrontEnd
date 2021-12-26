@@ -87,7 +87,7 @@ export default function Team() {
           Hall of Royals is a project by Klynox labs - a multinational tech company specialized in blockchain development, SaaS, AR and VR development, 3D design etc.
         </p>
         <div className="text-center mt-35">
-          <a href="/" className="team-action">
+          <a href="//klynox.co" target="_blank" rel="noreferrer" className="team-action">
             <span>Klynox.co</span>
             <img src={klynoxIcon} alt=""/>
           </a>

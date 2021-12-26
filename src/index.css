@@ -1087,22 +1087,22 @@ h1.section-title {
   top: -50px;
   height: 400px;
   left: 24%;
-  z-index: -1;
+  z-index: -4;
 }
 
 .shape-2 {
   position: absolute;
-  right: 0;
+  right: -3%;
   top: 30%;
-  height: 700px;
-  z-index: -1;
+  height: 500px;
+  z-index: -4;
 }
 .shape-3 {
   position: absolute;
   top: 37%;
-  left: 0;
-  height: 700px;
-  z-index: -1;
+  left: -3%;
+  height: 500px;
+  z-index: -4;
 }
 .shape-4 {
   position: absolute;
@@ -1199,20 +1199,56 @@ h1.section-title {
 .shape-14 {
   position: absolute;
   top: 1%;
-  left: 9%;
-  height: 1500px;
-  z-index: -1;
+  left: 20%;
+  height: 1700px;
+  z-index: -2;
+}
+@media (max-width: 1750px) {
+  .shape-14 {
+    left: 15%;
+  }
+}
+@media (max-width: 1660px) {
+  .shape-14 {
+    left: 12%;
+  }
+}
+@media (max-width: 1550px) {
+  .shape-14 {
+    left: 7%;
+  }
+}
+@media (max-width: 1450px) {
+  .shape-14 {
+    left: 1%;
+  }
+}
+@media (max-width: 1400px) {
+  .shape-14 {
+    left: -15px;
+  }
+}
+@media (max-width: 1310px) {
+  .shape-14 {
+    left: -150px;
+  }
+}
+@media (max-width: 1210px) {
+  .shape-14 {
+    left: -220px;
+  }
 }
 @media (max-width: 1195px) {
   .shape-14 {
-    height: 1000px;
+    height: 1200px;
+    left: 1%;
   }
 }
 @media (max-width: 645px) {
   .shape-14 {
     height: 890px;
-    left: -40px;
-    top: 17%;
+    left: -70px;
+    top: 1.7%;
   }
 }
 .shape-15 {
@@ -1280,6 +1316,9 @@ h1.section-title {
   .shape-17 {
     top: 20%;
   }
+}
+.hide-side {
+  overflow-x: hidden;
 }
 .glassy-wrapper {
   background: rgba(196, 196, 196, 0.05);
@@ -1373,6 +1412,10 @@ ul.roadmap-ul li + li {
   padding: 7px 12px;
   color: #ffffff;
   text-decoration: none;
+}
+.team-action:hover {
+  color: #fff;
+  background: rgb(243, 241, 241, 0.2);
 }
 .team-action img {
   width: 16px;
