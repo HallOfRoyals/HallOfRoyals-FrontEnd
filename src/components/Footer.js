@@ -36,7 +36,7 @@ export default function Footer() {
             <h2>Socials</h2>
             <ul>
               <li>
-                <a href="https://discord.gg/R8PQbnGZH2" target="_blank" rel="noreferrer">Discord</a>
+                <a href="https://discord.gg/hall-of-royals" target="_blank" rel="noreferrer">Discord</a>
               </li>
               <li>
                 <a href="https://twitter.com/HallofRoyals?s=09" target="_blank" rel="noreferrer">Twitter</a>
