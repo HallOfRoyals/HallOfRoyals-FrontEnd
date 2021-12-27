@@ -1461,8 +1461,13 @@ footer .copyright {
 }
 .news-link {
   padding: 5px;
-  color: #ffff00;
+  color: #fff;
 }
 .news-link:hover {
-  color: #dada24;
+  color: rgb(207, 210, 214);
+}
+.news-link img {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
 }

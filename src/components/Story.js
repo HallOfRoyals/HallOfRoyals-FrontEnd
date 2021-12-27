@@ -3,6 +3,7 @@ import nftOne from '../static/images/nfts/1.png';
 import nftTwo from '../static/images/nfts/2.png';
 import nftThree from '../static/images/nfts/3.png';
 import nftFour from '../static/images/nfts/4.png';
+import anchor from '../static/images/anchor.png';
 
 export default function Story() {
   return (
@@ -27,7 +28,11 @@ export default function Story() {
         <div className="d-flex justify-content-center mt-35">
           <img src={beninHead} alt="benin bronze head" />
         </div>
-        <p className="mt-20">This Benin Bronze sold to a private collector for a record fee of £10m - <a href="https://www.bbc.com/news/world-africa-56292809" class="news-link" target="_blank" rel="noreferrer">BBC</a></p>
+        <p className="mt-20">
+          <a href="https://www.bbc.com/news/world-africa-56292809" class="news-link" target="_blank" rel="noreferrer">
+            This Benin Bronze sold to a private collector for a record fee of £10m <img src={anchor} alt=""/>
+          </a>
+        </p>
         <h1 className="section-title mt-35 mb-20">Hall Of Royals NFT</h1>
         <p>
           Inspired by the ancient Benin Bronze Heads, Hall of Royals is a project to give a new expression and bring to limelight this ancient art form - using them to honor and immortalize people, ideas and cultures around the world.
