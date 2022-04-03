@@ -1,7 +1,6 @@
 import logo from '../static/images/logo.png';
 import socialOne from '../static/images/social-1.png';
 import socialTwo from '../static/images/social-2.png';
-import socialThree from '../static/images/social-3.png';
 import shapeOne from '../static/images/shape-1.png';
 import shapeTwo from '../static/images/shape-2.png';
 import shapeThree from '../static/images/shape-3.png';
