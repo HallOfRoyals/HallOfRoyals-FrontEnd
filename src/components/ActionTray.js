@@ -1,5 +1,4 @@
 import '../static/css/ActionTray.css';
-import openseaIcon from '../static/images/opensea-icon.png';
 import crownIcon from '../static/images/crown-icon.png';
 
 export default function ActionTray() {
