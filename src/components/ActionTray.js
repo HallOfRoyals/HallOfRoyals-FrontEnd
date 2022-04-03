@@ -9,8 +9,8 @@ export default function ActionTray() {
       <div className="row mt-20">
         <div className="col-6">
           <a href="https://opensea.io/collection/hallofroyals" target="_blank" rel="noreferrer" className="pl-5 pr-5 glassy-wrapper -actiontray-actions text-center d-flex justify-content-center align-items-center">
-            <span>Buy on OpenSea</span>
-            <img src={openseaIcon} alt="opensea"/>
+            <span>Minting coming soon</span>
+            <img src={crownIcon} alt="opensea"/>
           </a>
           <p className="text-center mt-10">Genesis collection</p>
         </div>
