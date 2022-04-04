@@ -16,9 +16,6 @@ export default function Footer() {
             <h2>Project</h2>
             <ul>
               <li>
-                <a href="https://opensea.io/collection/hallofroyals" target="_blank" rel="noreferrer">OpenSea</a>
-              </li>
-              <li>
                 <Link to="mint" spy={true} smooth={true}>Mint</Link>
               </li>
               <li>
