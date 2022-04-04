@@ -2,7 +2,7 @@ import '../static/css/ShowCase.css';
 import pic1 from '../static/images/showcase/1.png';
 import pic2 from '../static/images/showcase/2.png';
 import pic3 from '../static/images/showcase/3.png';
-import pic4 from '../static/images/showcase/4.png';
+import pic4 from '../static/images/contra-meno.jpg.jpg';
 import logoIcon from '../static/images/logo-icon.png';
 
 export default function ShowCase() {
