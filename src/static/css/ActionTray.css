@@ -6,6 +6,7 @@
   text-decoration: none;
   padding: 15px;
   background: #FFC477;
+  cursor: pointer;
 }
 .-actiontray-actions:hover {
   color: rgb(21, 21, 23);

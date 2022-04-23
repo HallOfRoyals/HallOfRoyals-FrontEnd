@@ -140,6 +140,13 @@ p {
   -o-transition: all 0.8s cubic-bezier(1, 0, 0, 1);
   transition: all 0.8s cubic-bezier(1, 0, 0, 1);
 }
+.btn-big {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  border-radius: 0;
+}
 .btn-primary {
   background: #ffc477;
   border: solid 1px #f0b86f;
@@ -151,6 +158,19 @@ p {
   background: #f1b464;
   color: #3b3b30;
   border: solid 1px #eaac5b;
+  box-shadow: none;
+}
+.btn-mute {
+  background: #000;
+  border: solid 1px rgb(13, 14, 16);
+  color: rgb(243, 245, 248);
+  transition: all ease 0.4s;
+}
+.btn-mute:hover,
+.btn-mute:focus {
+  background: rgb(16, 16, 18);
+  color: rgb(243, 245, 248);
+  border: solid 1px #141210;
   box-shadow: none;
 }
 .form-control {
@@ -166,6 +186,46 @@ p {
   border: 0.5px solid rgba(255, 255, 255, 0.2);
   box-shadow: none;
   color: #434d56;
+}
+.form-control.mute {
+  border: 0.5px solid rgba(0, 0, 0, 1);
+}
+.input-holder {
+  border: solid 1px #000;
+}
+.input-holder .label {
+  display: block;
+  font-size: 11px;
+  white-space: nowrap;
+  padding-left: 15px;
+}
+.input-holder .form-control {
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.input-holder .form-control:focus,
+.input-holder .form-control:hover {
+  border: none;
+  box-shadow: none;
+  color: #000;
+}
+.input-holder .form-control::-ms-input-placeholder {
+  color: #000;
+  opacity: 1;
+}
+.input-holder .form-control::-webkit-input-placeholder {
+  color: #000;
+  opacity: 1;
+}
+.input-holder .form-control::-moz-placeholder {
+  color: #000;
+  opacity: 1;
+}
+.input-holder .form-control::placeholder {
+  color: #000;
+  opacity: 1;
 }
 .mt-5 {
   margin-top: 5px;
@@ -1077,6 +1137,32 @@ h4.sub-title {
   font-size: 15px;
   line-height: 19px;
   color: #fff;
+}
+.classic-modal .modal-dialog {
+  max-width: 640px;
+}
+.classic-modal .modal-content {
+  background: #ffc477;
+  border-radius: 0;
+  border: 0;
+}
+.classic-modal .modal-content .modal-header {
+  border: 0;
+  border-radius: 0;
+  padding: 1.3rem;
+  position: relative;
+  display: block;
+}
+.classic-modal .modal-content .modal-header .btn-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-size: 0.7rem;
+}
+.classic-modal .modal-content .modal-body {
+  padding: 1.3rem;
 }
 .footer {
   text-align: center;
