@@ -1,19 +1,19 @@
 .-actiontray-actions {
-  color: #fff;
+  color: #000;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   text-decoration: none;
-  padding: 15px
+  padding: 15px;
+  background: #FFC477;
 }
 .-actiontray-actions:hover {
-  color: #fff;
-  background: rgba(160, 160, 160, 0.08);
+  color: rgb(21, 21, 23);
+  background: #f1b668;
 }
 .-actiontray-actions img {
   height: 32px;
-  width: 32px;
-  margin-left: 8px;
+  margin-left: 20px;
 }
 @media (max-width: 525px){
   .-actiontray-actions {

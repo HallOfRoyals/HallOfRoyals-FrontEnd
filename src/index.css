@@ -107,6 +107,66 @@ p {
     width: 76%;
   }
 }
+.btn {
+  border-radius: 0;
+}
+.btn-cap {
+  position: relative;
+  overflow: hidden;
+}
+.btn-cap:after {
+  content: "";
+  position: absolute;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+.btn-cap:hover:after {
+  width: 10px;
+  height: 10px;
+  -webkit-transform: scale(700);
+  -ms-transform: scale(700);
+  transform: scale(700);
+}
+.btn-cap:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  opacity: 0.3;
+  border-radius: 50%;
+  -webkit-transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+  transition: all 0.8s cubic-bezier(1, 0, 0, 1);
+}
+.btn-primary {
+  background: #ffc477;
+  border: solid 1px #f0b86f;
+  color: #000;
+  transition: all ease 0.4s;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #f1b464;
+  color: #3b3b30;
+  border: solid 1px #eaac5b;
+  box-shadow: none;
+}
+.form-control {
+  background: rgba(196, 196, 196, 0.05);
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  padding: 15px 25px;
+  border-radius: 0;
+  color: #434d56;
+}
+.form-control:focus,
+.form-control:hover {
+  background: rgba(196, 196, 196, 0.05);
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  color: #434d56;
+}
 .mt-5 {
   margin-top: 5px;
 }
@@ -990,11 +1050,33 @@ p {
 .pr-105 {
   padding-right: 105px;
 }
+.gallery-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+.gallery-img {
+  width: 100%;
+  max-width: 280px;
+}
 h1.section-title {
   text-align: center;
   color: #fff;
   font-size: 36px;
   line-height: 53px;
+}
+h2.section-title {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  line-height: 40px;
+}
+h4.sub-title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #fff;
 }
 .footer {
   text-align: center;
@@ -1470,4 +1552,9 @@ footer .copyright {
   width: 16px;
   height: 16px;
   margin-left: 4px;
+}
+@media (max-width: 575px) {
+  .mt-mobile-35 {
+    margin-top: 35px;
+  }
 }
