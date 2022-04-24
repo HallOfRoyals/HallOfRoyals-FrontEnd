@@ -37,7 +37,7 @@
             >
             <a
               href="https://docs.pancakeswap.finance/get-started/connection-guide"
-              class="bg-light h icon-container p-3 rounded-all text-default mt-4 w-75"
+              class="bg-dim h icon-container p-3 rounded-all text-default mt-4 w-75"
               target="_blank"
               rel="noopener noreferrer"
               ><i class="bi bi-question-circle mr-2"></i> Learn how to
@@ -97,6 +97,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.bg-dim {
+  background: #22272A;
+}
 .s-lightbox {
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
@@ -129,7 +132,7 @@ export default {
   cursor: pointer;
 }
 .s-modal-card {
-  background-color: #fff;
+  background-color: #1A1E21;
   position: relative;
   width: 420px;
   max-width: 100%;
@@ -138,7 +141,7 @@ export default {
   padding: 0;
   max-height: 100%;
   .s-card-header {
-    background: linear-gradient(87.84deg, #f1fff7 -18.45%, #fbfbff 72.37%);
+    background: linear-gradient(87.84deg, #1A1E21 -18.45%, #22272A 72.37%);
     font-family: "Public Sans", sans-serif;
     font-style: normal;
     font-weight: 500;
