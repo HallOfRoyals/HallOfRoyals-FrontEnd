@@ -168,9 +168,9 @@ p {
 }
 .btn-mute:hover,
 .btn-mute:focus {
-  background: rgb(16, 16, 18);
-  color: rgb(243, 245, 248);
-  border: solid 1px #141210;
+  background: rgb(16, 16, 18) !important;
+  color: rgb(243, 245, 248) !important;
+  border: solid 1px #141210 !important;
   box-shadow: none;
 }
 .big-resp {

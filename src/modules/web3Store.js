@@ -74,8 +74,6 @@ const web3Store = {
         commit("setChainId", network.chainId);
         commit("setActive", true);
 
-        dispatch("loadProfile", accounts[0]);
-
         provider.on("connect", async (info) => {
           let chainId = parseInt(info.chainId);
           if (chainId != CHAIN_ID) {
@@ -90,13 +88,11 @@ const web3Store = {
             return;
           }
           commit("setChainId", chainId);
-          dispatch("loadProfile", accounts[0]);
         });
 
         provider.on("accountsChanged", async (accounts) => {
           if (accounts.length > 0) {
             commit("setAccount", accounts[0]);
-            dispatch("loadProfile", accounts[0]);
           } else {
             await dispatch("resetApp");
           }

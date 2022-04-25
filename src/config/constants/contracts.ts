@@ -1,7 +1,7 @@
 export default {
   hor: {
-    97: "",
-    56: "0x649a339B8FC3A8bA0A03255c00fDC5D969684074",
+    97: "0xe16B7Bce3302320772065d6152e2ff29cDCe2631",
+    56: "",
   },
   multiCall: {
     56: "0xfF6FD90A470Aaa0c1B8A54681746b07AcdFedc9B",
