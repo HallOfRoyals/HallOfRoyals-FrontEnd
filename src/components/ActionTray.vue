@@ -119,7 +119,6 @@ export default class ActionTray extends Web3Mixins {
   transactionHash = null;
 
   BASE_BSC_SCAN_URL = BASE_BSC_SCAN_URL;
-  launchpadContract = getHORTokenContract();
 
   async reason(tx) {
     const provider = new ethers.providers.Web3Provider(

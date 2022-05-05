@@ -155,9 +155,9 @@ p {
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background: #f1b464;
-  color: #3b3b30;
-  border: solid 1px #eaac5b;
+  background: #f1b464 !important;
+  color: #3b3b30 !important;
+  border: solid 1px #eaac5b !important;
   box-shadow: none;
 }
 .btn-mute {
